@@ -2,13 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import io
-import pdfkit
 
-from jinja2 import Template
-from weasyprint import HTML
 from app.api.v1.routes import load_dashboard
 from app.services.fetcher import fetch_network_details
-from app.services.report_builder import generate_pdf_report
+from app.services.report_builder import generate_pdf_report, save_bar_chart,save_pie_chart
 from app.services.pagination import render_pagination_ui
 from app.services.processor import enrich_with_station_data
 from app.services.analytics import get_top_10_networks_by_station_count
@@ -128,20 +125,20 @@ top_networks_pie_figure.update_layout(
     font_color="white"
 )
 
-# === Generate Report Button ===
+# === Generate Report Button in Sidebar ===
 with st.sidebar:
     if st.button("📄 Generate Report"):
         try:
             pdf_path = generate_pdf_report(
-            df=df,
-            top_country=top_country_name,
-            total_networks=total_networks,
-            total_stations=total_stations,
-            top_network=top_network_name,
-            top_country_networks_df=filtered_summary_df,  # a df with ['name', 'station_count', 'free_bikes', 'empty_slots']
-            world_map_fig=world_map_figure,               
-            top_country_fig=top_country_bar_figure,       
-            top_networks_pie_fig=top_networks_pie_figure  
+                df=df,
+                top_country=top_country_name,
+                total_networks=total_networks,
+                total_stations=total_stations,
+                top_network=top_network_name,
+                top_country_networks_df=filtered_summary_df,
+                world_map_fig=world_map_figure,
+                top_country_fig=top_country_bar_figure,
+                top_networks_pie_fig=top_networks_pie_figure
             )
             with open(pdf_path, "rb") as f:
                 st.download_button(
@@ -157,9 +154,8 @@ with st.sidebar:
 
 
 
-
+# === Modal UI Logic ===
 if st.session_state.get("show_report_modal", False):
-    # Background overlay
     st.markdown("""
         <style>
         .overlay {
@@ -188,9 +184,9 @@ if st.session_state.get("show_report_modal", False):
 
     st.markdown("### ✏️ Select Report Sections")
 
-    include_summary = st.checkbox("✅ Include Global Summary")
-    include_charts = st.checkbox("✅ Include Top Charts")
-    include_map = st.checkbox("✅ Include World Map")
+    include_summary = st.checkbox("✅ Include Global Summary", value=True)
+    include_charts = st.checkbox("✅ Include Top Charts", value=True)
+    include_map = st.checkbox("✅ Include World Map", value=True)
 
     generate = st.button("📥 Download Report as PDF")
     cancel = st.button("❌ Cancel")
@@ -211,54 +207,33 @@ if st.session_state.get("show_report_modal", False):
 
 
 
-
 if st.session_state.get("generate_pdf"):
-
-
     selected = st.session_state.generate_pdf
     st.success("Generating PDF...")
 
-    html_template = Template("""
-        <html><head><style>
-        body { font-family: sans-serif; color: #222; }
-        h2 { color: #0c5460; }
-        </style></head><body>
-        {% if summary %}
-        <h2>Global Summary</h2>
-        <p>Total Networks: {{ total_networks }}</p>
-        <p>Total Stations: {{ total_stations }}</p>
-        {% endif %}
-        {% if charts %}
-        <h2>Top Networks</h2>
-        <ul>{% for net in top_networks %}<li>{{ net }}</li>{% endfor %}</ul>
-        {% endif %}
-        {% if map %}
-        <h2>World Map Overview</h2>
-        <p>[Map placeholder]</p>
-        {% endif %}
-        </body></html>
-    """)
+    try:
+        pdf_path = generate_pdf_report(
+            df=df,
+            top_country=top_country_name,
+            total_networks=total_networks,
+            total_stations=total_stations,
+            top_network=top_network_name,
+            top_country_networks_df=filtered_summary_df if selected["summary"] else pd.DataFrame(),
+            world_map_fig=world_map_figure if selected["map"] else None,
+            top_country_fig=top_country_bar_figure if selected["charts"] else None,
+            top_networks_pie_fig=top_networks_pie_figure if selected["charts"] else None,
+            include_summary=selected["summary"],
+            include_charts=selected["charts"],
+            include_map=selected["map"]
+        )
 
-    # Sample dynamic values
-    html = html_template.render(
-        summary=selected["summary"],
-        charts=selected["charts"],
-        map=selected["map"],
-        total_networks=len(df),
-        total_stations=df["station_count"].sum(),
-        top_networks=list(df["name"].unique()[:5])
-    )
+        with open(pdf_path, "rb") as f:
+            st.download_button("⬇️ Click to Download Your PDF Report", f, file_name="CityBike_Report.pdf")
 
-    with open("report.html", "w") as f:
-        f.write(html)
-
-    pdfkit.from_file("report.html", "report.pdf")
-
-    with open("report.pdf", "rb") as f:
-        st.download_button("⬇️ Click to Download Your PDF Report", f, file_name="CityBike_Report.pdf")
+    except Exception as e:
+        st.error(f"Error while generating the report: {e}")
 
     del st.session_state["generate_pdf"]
-
 
 
 

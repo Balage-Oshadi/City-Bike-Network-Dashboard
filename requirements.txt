@@ -3,7 +3,7 @@ requests
 pandas
 plotly
 pytest
-pdfkit
-weasyprint
-jinja2
 kaleido
+reportlab
+pillow
+matplotlib
