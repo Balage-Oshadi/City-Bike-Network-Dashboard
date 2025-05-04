@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>City Bike Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            color: #333;
+            background-color: #fff;
+        }
+        h1 {
+            color: #0077cc;
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 6px;
+            margin-top: 40px;
+        }
+        .metrics {
+            margin-bottom: 30px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .metric {
+            margin: 8px 0;
+            font-size: 15px;
+            
+        }
+        .chart {
+            text-align: center;
+            margin: 25px 0;
+        }
+        .chart img {
+            max-width: 50%;
+            height: 70%;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            font-size: 12px;
+            margin-top: 50px;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🚴 City Bike Network Report</h1>
+
+    <div class="metrics">
+        <p class="metric"><strong>Total Networks:</strong> {{ total_networks }}</p>
+        <p class="metric"><strong>Total Stations:</strong> {{ total_stations }}</p>
+        <p class="metric"><strong>Top Country:</strong> {{ top_country }}</p>
+        <p class="metric"><strong>Top Network:</strong> {{ top_network }}</p>
+    </div>
+
+    <h2>📊 Top 10 Countries by Network Count</h2>
+    <div class="chart">
+        <img src="{{ bar_chart_img }}" alt="Top Countries Chart">
+    </div>
+
+    <h2>🏆 Top 10 Networks by Station Count</h2>
+    <div class="chart">
+        <img src="{{ pie_chart_img }}" alt="Top Networks Pie Chart">
+    </div>
+
+    <h2>🗺️ World Map of Bike Stations</h2>
+    <div class="chart">
+        <img src="{{ world_map_img }}" alt="World Map of Bike Stations">
+    </div>
+
+    
+
+    <div class="footer">
+        Report generated on {{ generated_date }} by City Bike Network Dashboard.
+    </div>
+
+</body>
+</html>

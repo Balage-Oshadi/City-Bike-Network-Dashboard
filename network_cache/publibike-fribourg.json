@@ -1,0 +1,1 @@
+{"id": "publibike-fribourg", "name": "PubliBike Fribourg", "location": {"latitude": 46.805708, "longitude": 7.160339, "city": "Fribourg", "country": "CH"}, "href": "/v2/networks/publibike-fribourg", "company": ["PubliBike AG"], "system": "PubliBike", "source": "https://api.publibike.ch/v1/static/api.html", "stations": []}

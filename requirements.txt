@@ -1,0 +1,9 @@
+streamlit
+requests
+pandas
+plotly
+pytest
+pdfkit
+weasyprint
+jinja2
+kaleido

@@ -1,0 +1,782 @@
+id,name,city,country,latitude,longitude,station_count,free_bikes,empty_slots
+abu-dhabi-careem-bike,Abu Dhabi Careem BIKE,Abu Dhabi,AE,24.4866,54.3728,23,31,162
+acces-velo-saguenay,Accès Vélo,Saguenay,CA,48.433333,-71.083333,14,16,76
+aksu,Aksu,阿克苏市 (Aksu City),CN,41.1664,80.2617,77,240,1100
+alba,Alba,Alba,IT,44.716667,8.083333,9,45,27
+albabici,AlbaBici,Albacete,ES,38.9943,-1.8602,31,90,262
+algira,AlGira,Almeirim,PT,39.2082,-8.6252,9,9,49
+almatybike,Almatybike,Almaty,KZ,43.239101,76.9268076,180,6,1823
+alsa-nextbike-leon,Alsa nextbike León,León,ES,42.5987263,-5.5670959,49,352,98
+ambici-amb,Ambici,Barcelona,ES,41.44584,2.19902,6,40,80
+ambici-badalona,Ambici,Badalona,ES,41.447,2.245,31,302,305
+ambici-castelldefels,Ambici,Castelldefels,ES,41.2816,1.97678,13,132,128
+ambici-cornella-de-llobregat,Ambici,Cornellà de Llobregat,ES,41.3585,2.07081,15,150,150
+ambici-el-prat-de-llobregat,Ambici,El Prat de Llobregat,ES,41.3239,2.09317,14,141,137
+ambici-esplugues-de-llobregat,Ambici,Esplugues de Llobregat,ES,41.3771,2.08938,11,127,92
+ambici-gava,Ambici,Gavà,ES,41.303,2.00269,14,140,140
+ambici-hospitalet-de-llobregat,Ambici,Hospitalet de Llobregat,ES,41.3631,2.1126,30,317,279
+ambici-molins-de-rei,Ambici,Molins de Rei,ES,41.4132,2.02037,6,60,58
+ambici-sant-adria-de-besos,Ambici,Sant Adrià de Besòs,ES,41.43073,2.21855,2,21,19
+ambici-sant-boi-de-llobregat,Ambici,Sant Boi de Llobregat,ES,41.3458,2.03404,13,131,125
+ambici-sant-feliu-de-llobregat,Ambici,Sant Feliu de Llobregat,ES,41.38333,2.05,13,131,129
+ambici-sant-joan-despi,Ambici,Sant Joan Despí,ES,41.368,2.05635,9,91,89
+ambici-sant-just-desvern,Ambici,Sant Just Desvern,ES,41.3807,2.07496,9,91,85
+ambici-santa-coloma-de-gramenet,Ambici,Santa Coloma de Gramenet,ES,41.4459,2.21033,15,151,149
+ambici-viladecans,Ambici,Viladecans,ES,41.3165,2.01306,17,174,165
+andria,Andria in Bici,Andria,IT,41.224346932834,16.296983922753956,12,60,36
+aral,Aral,阿拉尔市 (Aral),CN,40.5577,81.2879,32,125,511
+arbike,ARbike,Arezzo,IT,43.473333,11.87,8,16,52
+arriva-nitra,Arriva,Nitra,SK,48.3088,18.0783,37,0,104
+arval-scandicci,ARVAL,Scandicci,IT,43.7701,11.1592,1,0,5
+ascoli-piceno,Ascoli Piceno,Ascoli Piceno,IT,42.85,13.583333,5,25,15
+athens-bikes,AthensBikes,Athens,GR,37.9838,23.7275,1,9,0
+auxrmlevelo,AuxR_M le vélo,Auxerre,FR,47.797221,3.572376,53,197,0
+avelo-quebec,àVélo,Québec,CA,46.81305,-71.2168,152,1399,1581
+aventura,Aventura BCycle,"Aventura, FL",US,25.95711,-80.1395,5,24,34
+aviles-en-bici,Avilés en Bici,Avilés,ES,43.5554,-5.9222,16,55,145
+aw-bike,AW-bike Ahrweiler,Ahrweiler,DE,50.5452,7.1212,18,71,0
+baksi-antalya,Baksi,Antalya,TR,36.862048,30.638866,10,119,6
+baksi-cabis,Çabis,Çanakkale,TR,40.1531,26.4146,21,83,40
+baksi-nilesplit,Nilesplit,Nilüfer,TR,40.2127,28.9627,37,323,61
+batumvelo,Batumvelo,Batumi,GE,41.660906,41.678835,0,0,0
+bay-wheels,Bay Wheels,"San Francisco Bay Area, CA",US,37.7141454,-122.25,568,5162,7119
+bealler,Pedaleando por Aller (BeALLER),Aller,ES,43.1482,-5.6295,3,2,22
+belfastbikes-belfast,BelfastBikes,Belfast,GB,54.5969,-5.92918,60,182,657
+bentonville,Bentonville BCycle,"Bentonville, AR",US,36.3605,-94.1996,23,157,141
+bergen-bysykkel,Bysykkel,Bergen,NO,60.391263,5.322054,108,786,1149
+bergisches-e-bike,Bergisches e-Bike,Bergisches e-Bike,DE,51.0192,7.18025,56,69,107
+beryl-bcp,"Beryl - Bournemouth, Christchurch and Poole","Bournemouth, Christchurch and Poole",GB,50.7196,-1.8734,467,495,2706
+beryl-brighton,Beryl - Brighton,Brighton,GB,50.8222,-0.1403,109,557,669
+beryl-cornwall,Beryl - Cornwall,Cornwall,GB,50.2616,-5.051,105,185,484
+beryl-dorchester-weymouth-portland,"Beryl - Dorchester, Weymouth and Portland","Dorchester, Weymouth and Portland",GB,50.6085,-2.454,31,72,145
+beryl-eastleigh,Beryl - Eastleigh,Eastleigh,GB,50.9691,-1.3603,10,29,49
+beryl-greater-manchester,Beryl - Greater Manchester,Greater Manchester,GB,53.4795,-2.2436,284,703,2002
+beryl-guildford,Beryl - Guildford,Guildford,GB,51.2397,-0.5764,33,172,183
+beryl-hereford,Beryl - Hereford,Hereford,GB,52.0549,-2.7156,74,238,325
+beryl-hertsmere,Beryl - Hertsmere,Hertsmere,GB,51.6577,-0.2695,27,36,113
+beryl-leeds,Beryl - Leeds,Leeds,GB,53.7971,-1.5438,94,214,632
+beryl-norwich,Beryl - Norwich,Norwich,GB,52.6288,1.2934,192,548,1062
+beryl-plymouth,Beryl - Plymouth,Plymouth,GB,50.3714,-4.1421,134,237,702
+beryl-stevenage,Beryl - Stevenage,Stevenage,GB,51.9059,-0.1905,45,0,309
+beryl-watford,Beryl - Watford,Watford,GB,51.6556,-0.3953,95,76,614
+beryl-west-midlands,Beryl - West Midlands,West Midlands,GB,52.4798,-1.9014,425,1391,3765
+beryl-worcester,Beryl - Worcester,Worcester,GB,52.1912,-2.2206,51,149,361
+bia,BIA,Ovar,PT,40.8599,-8.6246,5,8,66
+bianzone-in-bici,Bianzone in Bici,Bianzone,IT,46.188197,10.109354,1,5,3
+biba,BiBa,Badajoz,ES,38.878,-6.9701,29,31,233
+bibo,BIBO,Boadilla del Monte,ES,40.4125,-3.8909,10,34,68
+bici-bolzano,Bici Bolzano,Bolzano,IT,46.49,11.3401,16,121,69
+bici-co,BICI&CO,Como,IT,45.8080597,9.0851765,17,14,126
+bici-ferrol-terra,BiciFerrolTerra,Ferrol - Narón,ES,43.4896,-8.2193,18,68,128
+bici-in-busto,Bici in Busto,Busto Arsizio,IT,45.610555,8.852062,9,45,27
+bici-perugia,Bici Perugia,Perugia,IT,43.1107168,12.3908279,14,55,69
+bicialcazar,BiciAlcázar,Alcázar de San Juan,ES,39.3901,-3.2101,2,9,11
+biciarousa,BiciArousa,A Illa de Arousa,ES,42.5521,-8.8666,3,0,30
+biciarteixo,biciArteixo,Arteixo,ES,43.3053,-8.5069,8,68,10
+bicibur,BiciBur,Burgos,ES,42.34392,-3.69697,25,90,170
+bicicas,Bicicas,Castelló de la Plana,ES,39.9856,-0.0389,62,436,642
+bicicletar,Bicicletar,Fortaleza,BR,-3.7321944,-38.510347,246,1186,2227
+bicicorunha,Bicicoruña,A Coruña,ES,43.3623,-8.4115,49,389,477
+bicicuenca,Bici Pública Cuenca,Cuenca,EC,-2.897,-79.0038,20,167,233
+bicielx,Bicielx,Elx,ES,38.2665,-0.7,112,799,930
+bicikelj,Bicikelj,Ljubljana,SI,46.05645089999999,14.5080702,86,799,905
+bicilog,BiciLog,Logroño,ES,42.4658,-2.4402,30,223,162
+bicimad,BiciMAD,Madrid,ES,40.4168,-3.7038,629,6637,7711
+bicimia,bicimia,Brescia,IT,45.5378,10.2173,97,375,514
+bicimislata,BiciMislata,Mislata,ES,39.4763,-0.4182,13,18,95
+bicincitta-acquarica-del-capo,Bicincittà,Acquarica del Capo,IT,39.9144573,18.2450324,4,20,12
+bicincitta-acquaviva-delle-fonti,Bicincittà,Acquaviva delle fonti,IT,40.9303721,16.8414374,6,30,18
+bicincitta-alghero,Bicincittà,Alghero,IT,40.5579517,8.319294900000001,5,25,15
+bicincitta-assemini,Bicincittà,Assemini,IT,39.28956306007679,9.006601555294765,8,31,31
+bicincitta-borgarello,Bicincittà,Borgarello,IT,45.23963753440171,9.136150475640875,2,10,6
+bicincitta-brancaleone,Bicincittà,Brancaleone,IT,37.9679084,16.0757749,5,25,15
+bicincitta-carrara,Bicincittà,Carrara,IT,44.07731805550891,10.097172450401331,3,15,9
+bicincitta-casaletto-spartano,Bicincittà,Casaletto Spartano,IT,40.1532801,15.6211479,2,10,6
+bicincitta-castel-guelfo-the-style-outlets,Bicincittà,Castel Guelfo di Bologna,IT,44.4328527,11.6750857,1,7,2
+bicincitta-cesena,Mi Muovo in bici,Cesena,IT,44.1396438,12.2464292,5,25,15
+bicincitta-cisterna-di-latina,Bicincittà,Cisterna di Latina,IT,41.5754029,12.8284772,5,25,15
+bicincitta-costa-blu,Costa Blu,Montesilvano,IT,42.5009,14.1282,11,28,52
+bicincitta-elmas,Bicincittà,Elmas,IT,39.2634329,9.0515805,2,10,6
+bicincitta-ente-parco-del-circeo,Bicincittà,Parco Nazionale del Circeo,IT,41.3151015,13.0330782,4,20,12
+bicincitta-ente-parco-di-montemarcello-magra,Bicincittà,Ente Parco Montemarcello Magra,IT,44.1143897,9.9635986,10,50,30
+bicincitta-ente-parco-san-rossore,Bicincittà,Parco naturale Migliarino San Rossore Massaciuccoli,IT,43.723826,10.339509,5,25,15
+bicincitta-forli,Mi Muovo in Bici,Forlì,IT,44.2227398,12.0407312,14,60,105
+bicincitta-gaeta,Bicincittà,Gaeta,IT,41.209620965538036,13.584335125656139,4,20,12
+bicincitta-gallipoli,Bicincittà,Gallipoli,IT,40.0558554,17.9925085,1,5,3
+bicincitta-imola,Mi Muovo in bici,Imola,IT,44.3559128,11.7161197,10,50,30
+bicincitta-lavis,Bicincittà,Lavis,IT,46.1408423,11.1124935,3,15,9
+bicincitta-livorno,Bicincittà,Livorno,IT,43.548473,10.3105674,9,10,33
+bicincitta-mantova,Bicincittà,Mantova,IT,45.15866370764634,10.783718973016335,8,40,24
+bicincitta-massa,Bici in Massa,Massa,IT,44.0146,10.1017,6,15,21
+bicincitta-mezzocorona,Bicincittà,Mezzocorona,IT,46.2339047,11.1277461,3,15,9
+bicincitta-mezzolombardo,Bicincittà,Mezzolombardo,IT,46.21400260000001,11.0967867,3,15,9
+bicincitta-modena,Mi Muovo in bici,Modena,IT,44.647128,10.9252269,3,15,9
+bicincitta-monserrato,Bicincittà,Monserrato,IT,39.2560191,9.1453579,2,10,6
+bicincitta-montecatini-terme,Bicincittà,Montecatini Terme,IT,43.88362791665083,10.764385656591799,11,55,33
+bicincitta-monteriggioni,Sipedala,Monteriggioni,IT,43.3896,11.2236,3,15,9
+bicincitta-monza,Bicincittà,Monza,IT,45.5845001,9.2744485,22,46,161
+bicincitta-morigerati,Bicincittà,Morigerati,IT,40.1422031,15.5298525,2,10,6
+bicincitta-parco-dei-colli-di-bergamo,Bicincittà,Parco dei Colli di Bergamo,IT,45.72295637032245,9.649230073016383,1,5,3
+bicincitta-parco-molentargius-saline,Bicincittà,Parco Naturale Molentargius - Saline,IT,39.2052545,9.146761099999999,3,15,9
+bicincitta-pista,PisTA!,Taranto,IT,40.4351,17.2096,5,11,13
+bicincitta-pizzighettone-formigara,Bicincittà,Pizzighettone e Formigara,IT,45.186748819167434,9.778087948479424,2,10,6
+bicincitta-porto-torres,Bicincittà,Porto Torres,IT,40.8333682,8.402292899999999,1,5,3
+bicincitta-rivarolo-canavese,Bicincittà,Rivarolo Canavese,IT,45.306633,7.723242,3,3,5
+bicincitta-san-donato-milanese,Bicincittà,San Donato Milanese,IT,45.4092402,9.2684867,13,0,30
+bicincitta-san-giovanni-in-persiceto,Mi Muovo in Bici,San Giovanni in Persiceto,IT,44.6405433,11.1893053,2,10,6
+bicincitta-san-lazzaro-di-savena,Mi Muovo in Bici,San Lazzaro di Savena,IT,44.4702725,11.409399,2,10,6
+bicincitta-san-michele-alladige,Bicincittà,San Michele All'adige,IT,46.1878653,11.1330423,2,10,6
+bicincitta-san-teodoro,Bicincittà,San Teodoro,IT,40.7722837,9.6695458,1,5,3
+bicincitta-scafati,Bicincittà,Scafati,IT,40.7620174,14.5363969,3,15,9
+bicincitta-scandiano,Mi Muovo in Bici,Scandiano,IT,44.5982342,10.6909273,5,25,15
+bicincitta-selargius,Bicincittà,Selargius,IT,39.2596768,9.1629372,2,10,6
+bicincitta-siena,Bicincittà,Siena,IT,43.3186,11.3306,19,65,112
+bicincitta-tivat,Bicincittà,TV,ME,42.4349809,18.7066398,6,30,18
+bicincitta-tortoli,Bicincittà,Tortolì,IT,39.92664489852196,9.654953570777934,2,10,6
+bicincitta-treviglio,Bicincittà,Treviglio,IT,45.5293372,9.591435899999999,2,10,6
+bicincitta-trieste,BiTS,Trieste,IT,45.6495,13.7768,24,126,155
+bicincitta-vicolungo-the-style-outlets,Bicincittà,Vicolungo,IT,45.47167229999999,8.4633922,1,5,3
+bicing,Bicing,Barcelona,ES,41.3850639,2.1734035,514,4456,8249
+bicinquartucciu,BicinQuartucciu,Quartucciu,IT,39.25043149806156,9.179296426489255,2,10,6
+bicinrivas,BiciNRivas,Rivas-Vaciamadrid,ES,40.35353,-3.53095,34,86,163
+bicipalma,Bicipalma,Palma,ES,39.57119,2.646634,90,561,1041
+bicisanvi,Bicisanvi,Sant Vicent del Raspeig,ES,38.39611,-0.5236,12,63,133
+bicischio,BiciSchio,Schio,IT,45.7170517,11.3597702,3,15,9
+biclis,biclis,Leiria,PT,39.7495,-8.8074,19,32,142
+bicloo,Bicloo,Nantes,FR,47.218371,-1.553621,125,967,1465
+bicyklezadobreskutky,Bicykle za dobré skutky,Prešov,SK,48.996275,21.234341,6,16,0
+biella,Biella,Biella,IT,45.5775,8.051111,5,25,15
+bigi,BiGi,Bergamo,IT,45.695,9.67,23,115,69
+bike-chattanooga,Bike Chattanooga,"Chattanooga, TN",US,35.0456297,-85.3096801,43,328,352
+bike-curitiba,BikeCuritiba,Curitiba,BR,-25.4299,-49.2722,51,560,307
+bike-itau-nordelta,Bike Itaú Nordelta,Nordelta,AR,-34.4146,-58.6493,21,163,122
+bikebrasilia,BikeBrasilia,Brasília,BR,-15.795115,-47.887424,69,410,350
+bikekia-zilina,BikeKia,Žilina,SK,49.2217,18.7572,36,129,153
+bikemi,BikeMi,Milano,IT,45.4654542,9.186516,322,4567,4189
+bikenmedio,BikEnmedio,Campoo de Enmedio,ES,42.9995,-4.1393,2,0,12
+bikepoa,BikePOA,Porto Alegre,BR,-30.033079,-51.23654,90,477,1048
+bikerecife,BikeRecife,Recife,BR,-8.047129,-34.873437,90,739,878
+bikerio,BikeRio,Rio de Janeiro,BR,-22.904315,-43.184776,406,2790,3974
+bikesalvador,BikeSalvador,Salvador,BR,-12.973959,-38.508171,56,451,376
+bikesampa,BikeSampa,São Paulo,BR,-23.55,-46.6333,241,1782,2621
+bikesantiago,BikeSantiago,Santiago,CL,-33.45,-70.67,189,1605,1164
+bikesantos,BikeSantos,Santos,BR,-23.954052,-46.333345,38,208,337
+bikeshare-peninsula-papagayo,Peninsula Papagayo Bike-Share,Península de Papagayo,CR,10.6246,-85.6796,7,9,76
+biketown,BIKETOWN,"Portland, OR",US,45.52175423291714,-122.68107935786247,250,664,1509
+biketown-whq,Biketown WHQ (Nike campus),"Beaverton, OR",US,45.5087,-122.8294,23,123,191
+bikeu-bra,Bydgoski rower aglomeracyjny,Bydgoszcz,PL,53.12193,18.00038,61,344,562
+bikeverona,Verona Bike,Verona,IT,45.438611,10.992778,40,454,575
+bikevitoria,Bike Vitória,Vitória,BR,-20.3202,-40.3375,36,131,350
+biki,BIKI,Valladolid,ES,41.6522,-4.7243,100,839,1010
+bilbon-bizi,BilbonBizi,Bilbao,ES,43.2752,-2.93528,46,381,853
+bismarck,BisPArks BCycle,"Bismarck, ND",US,46.8082,-100.7847,4,32,18
+bixi-montreal,Bixi,"Montréal, QC",CA,45.508693,-73.553928,950,8595,11905
+bixi-toronto,Bike Share Toronto,"Toronto, ON",CA,43.653226,-79.3831843,874,6135,9314
+bizi,Bizi,Zaragoza,ES,41.6487908,-0.8895811,108,917,1210
+bizkaibizi-barakaldo,Bizkaibizi,Barakaldo,ES,43.2966,-2.987,28,200,192
+bizkaibizi-berango,Bizkaibizi,Berango,ES,43.3619,-2.9968,4,29,11
+bizkaibizi-bilbao,Bizkaibizi,Bilbao,ES,43.2617,-2.9491,4,41,53
+bizkaibizi-erandio,Bizkaibizi,Erandio,ES,43.3029,-2.9756,5,32,30
+bizkaibizi-getxo,Bizkaibizi,getxo,ES,43.3476,-3.0088,17,97,158
+bizkaibizi-leioa,Bizkaibizi,Leioa,ES,43.3266,-2.9897,8,42,44
+bizkaibizi-portugalete,Bizkaibizi,Portugalete,ES,43.318,-3.0214,7,29,56
+bizkaibizi-santurtzi,Bizkaibizi,Santurtzi,ES,43.328,-3.0335,6,71,33
+bizkaibizi-sestao,Bizkaibizi,Sestao,ES,43.3093,-3.0068,5,35,35
+bl-bike-banja-luka,BL bike,Banja Luka,BA,44.775,17.1994,5,21,27
+blue-bikes,Blue Bikes,"Boston, MA",US,42.3584308,-71.0597732,537,4360,4839
+bora,Bora!,CIM Viseu Dão-Lafões,PT,40.656392,-7.912545,39,4,22
+boulder,Boulder BCycle,"Boulder, CO",US,40.00811,-105.26385,55,275,402
+brindisi,BrindisiByBike,Brindisi,IT,40.637580319936106,17.940774547082572,5,25,15
+broward,Broward BCycle,"Fort Lauderdale, FL",US,26.12026,-80.14819,19,95,123
+bubi,MOL Bubi,Budapest,HU,47.497912,19.040235,220,1854,2297
+bublr-bikes,Bublr Bikes,"Milwaukee, WI",US,43.0369,-87.89667,111,514,926
+buga,BUGA,Aveiro,PT,40.6388,-8.6479,20,9,15
+burgenland-neusiedler-see,Burgenland,Neusiedler See,AT,47.839,16.761,23,70,0
+bysykkel-lillestrom,Bysykkel,Lillestrøm,NO,59.9559696,11.0503785,7,48,69
+c-velo,C.vélo,Clermont-Ferrand,FR,45.7831,3.0824,58,561,710
+cagliari,Cagliari,Cagliari,IT,39.220817,9.121399,10,50,30
+callabike-berlin,Call-A-Bike,Berlin,DE,52.5179,13.3895,481,1625,0
+callabike-darmstadt,Call-A-Bike,Darmstadt,DE,49.8707135,8.6527299,52,376,0
+callabike-frankfurt,Call-A-Bike,Frankfurt,DE,50.1109,8.6795,298,1456,0
+callabike-koln,Call-A-Bike,Köln,DE,50.939,6.9595,280,1019,0
+callabike-munchen,Call-A-Bike,München,DE,48.1375,11.5759,255,939,0
+capital-bikeshare,Capital BikeShare,"Washington, DC",US,38.8967584,-77.03701629999999,793,5150,7924
+capmetro-austin,CapMetro Bikeshare,"Austin, TX",US,30.26408,-97.74355,73,184,716
+carbonia,Carbonia,Carbonia,IT,39.167222,8.522222,10,50,30
+carvelo,carvelo eCargo-Bike Sharing,Switzerland,CH,46.9829,8.2331,328,326,12
+cascavel,Cascavel Vai de Bici,Cascavel,BR,-24.9558,-53.4566,11,45,53
+cassano-d-adda,Cassano d'Adda,Cassano d'Adda,IT,45.5309616,9.5155813,2,0,0
+castellucchio,Castellucchio,Castellucchio,IT,45.15047821582959,10.651202201843262,1,0,0
+chantrerie-captainbike,Chantrerie VLS (Captain Bike),"La Chantrerie, Nantes",FR,47.2868203,-1.5210917,16,91,201
+charlotte,Charlotte Joyrides,"Charlotte, NC",US,35.22716,-80.83855,30,118,221
+chartered-bike-bhopal,Chartered Bike,Bhopal,IN,23.258546,77.401851,56,392,620
+chartered-bike-bilaspur,Chartered Bike,Bilaspur,IN,22.07834,82.14768,5,28,18
+chartered-bike-moradabad,Chartered Bike,Moradabad,IN,28.83263,78.77346,37,41,252
+chartered-bike-prayagraj,Chartered Bike,Prayagraj,IN,25.43802,81.83383,62,173172,401
+chartered-bike-rajarhat-new-town,Chartered Bike,Rajarhat New Town,IN,22.58797,88.4731,23,366,341
+chartered-bike-ranchi,Chartered Bike,Ranchi,IN,23.37005,85.325004,91,643,675
+chartered-bike-srinagar,Chartered Bike,Srinagar,IN,34.07471,74.82044,63,520,239
+chartered-bike-surat,Chartered Bike,Surat,IN,21.18626,72.80798,88,706,680
+chivasso,Chivasso,Chivasso,IT,45.189765,7.888935,12,23,57
+choletbus,Choletbus 2 roues,Cholet,FR,47.06,-0.8783,12,65,105
+ciclopi,Ciclopi,Pisa,IT,43.7228386,10.4016888,35,171,186
+cincy-red-bike,Cincy Red Bike,"Cincinnati, OH",US,39.10138,-84.51217,72,356,517
+citi-bike-miami,Citi Bike Miami,"Miami, FL",US,25.790654,-80.1300455,168,1032,1584
+citi-bike-nyc,Citi Bike,"New York, NY",US,40.7143528,-74.00597309999999,2207,31799,29505
+citybike-lima,CityBike Lima,Lima,PE,-12.1209,-77.0296,50,369,529
+citybikelinz,city bike Linz,Linz,AT,48.3003,14.2843,51,383,143
+citybikes-helsinki,City bikes,Helsinki,FI,60.16985569999999,24.938379,583,5127,6140
+civitavecchia,Civitavecchia,Civitavecchia,IT,42.0937524,11.7922462,4,20,12
+clemson,Clemson University Bike Share,"Clemson, SC",US,34.67847,-82.8351,12,46,69
+clujbike,Cluj Bike,Cluj-Napoca,RO,46.775,23.5975,52,318,655
+co-bikes-exeter,Co-bikes,Exeter,GB,50.7272,-3.53605,15,0,110
+cogo,CoGo,"Columbus, OH",US,39.983333,-82.983333,92,0,546
+cork,TFI Bikes,Cork,IE,51.893604,-8.494174,35,0,365
+cuneo,Cuneo,Cuneo,IT,44.384238,7.541428,9,45,27
+cyclam,Cycl’AM,Ardenne Métropole,FR,49.7719,4.7161,32,82,151
+cyclolibre,CYCLOlibre,Carcassonne,FR,43.2127,2.3492,10,44,43
+cyclopolis-aua,Γεωπονικό Πανεπιστήμιο Αθηνών (Agricultural University of Athens),Athens,GR,37.9846,23.7056,2,7,9
+cyclopolis-chania,Cyclopolis,Chania,GR,35.5148425,24.0177549,4,0,27
+cyclopolis-edessa,Cyclopolis,Edessa,GR,40.8033168,22.0436732,4,19,13
+cyclopolis-igoumenitsa,Cyclopolis,Igoumenitsa,GR,39.5031199,20.2639271,5,9,12
+cyclopolis-loutraki,Cyclopolis,Loutraki,GR,37.9782137,22.9767486,2,15,15
+cyclopolis-poros,Cyclopolis,Poros,GR,37.4995,23.4546,1,0,0
+cyclovis,Cyclovis,Soissons,FR,49.3817,3.3236,26,83,173
+cykl,Cykl,Wageningen,NL,51.974,5.6671,12,20,0
+dbizi,Dbizi,Donostia/San Sebastián,ES,43.3186,-1.9836,69,435,758
+dcs-bike,DCS Bike,Mannheim,DE,49.5346,8.47004,5,48,0
+denver,Lyft,"Denver, CO",US,39.72055,-104.95253,66,95,823
+desmoines,Des Moines BCycle,"Des Moines, IA",US,41.6005448,-93.6091064,29,133,154
+divia-velodi,DiviaVélodi,Dijon,FR,47.3215806,5.0414701,40,431,432
+divvy,Divvy,"Chicago, IL",US,41.8781136,-87.6297982,1818,6515,10241
+docomo-cycle-aichi,Docomo Bike Share Aichi,愛知県 (Aichi),JP,35.1835,136.904,515,1358,1276
+docomo-cycle-fukui,Docomo Bike Share Fukui,福井県 (Fukui),JP,36.0665,136.2138,41,113,188
+docomo-cycle-gifu,Docomo Bike Share Gifu,岐阜県 (Gifu),JP,35.4512,137.02627,1,2,11
+docomo-cycle-hiroshima,Docomo Bike Share Hiroshima,広島県 (Hiroshima),JP,34.3904,132.4527,166,607,1119
+docomo-cycle-hyogo,Docomo Bike Share Hyōgo,兵庫県 (Hyōgo),JP,34.8147,134.689,93,423,776
+docomo-cycle-ibaraki,Docomo Bike Share Ibaraki,茨城県 (Ibaraki),JP,36.3732,140.2549,14,36,30
+docomo-cycle-ishikawa,Docomo Bike Share Ishikawa,石川県 (Ishikawa),JP,36.5594,136.658,133,581,733
+docomo-cycle-kagoshima,Docomo Bike Share Kagoshima,鹿児島県 (Kagoshima),JP,31.588,130.5547,30,184,192
+docomo-cycle-kanagawa,Docomo Bike Share Kanagawa,神奈川県 (Kanagawa),JP,35.4504,139.625,327,1492,1659
+docomo-cycle-kyoto,Docomo Bike Share Kyoto,京都府 (Kyoto),JP,35.0001,135.7587,421,1210,2092
+docomo-cycle-miyagi,Docomo Bike Share Miyagi,茨城県 (Miyagi),JP,38.2607,140.8814,140,782,950
+docomo-cycle-nara,Docomo Bike Share Nara,奈良県 (Nara),JP,34.6839,135.8087,28,74,182
+docomo-cycle-niigata,Docomo Bike Share Niigata,新潟県 (Niigata),JP,37.9186,139.0488,41,80,340
+docomo-cycle-oita,Docomo Bike Share Ōita,大分県 (Ōita),JP,33.2393,131.6124,85,271,325
+docomo-cycle-okayama,Docomo Bike Share Okayama,岡山県 (Okayama),JP,34.603,133.765,10,28,34
+docomo-cycle-okinawa,Docomo Bike Share Okinawa,沖縄県 (Okinawa),JP,26.2097,127.6841,54,110,282
+docomo-cycle-osaka,Docomo Bike Share Osaka,大阪府 (Osaka),JP,34.693,135.5028,668,2459,2878
+docomo-cycle-shiga,Docomo Bike Share Shiga,滋賀県 (Shiga),JP,35.0378,135.9801,5,43,37
+docomo-cycle-tokyo,Docomo Bike Share Tokyo,Tokyo,JP,35.6827,139.766,1552,7356,9776
+docomo-cycle-yamanashi,Docomo Bike Share Yamanashi,山梨県 (Yamanashi),JP,35.6848,138.733,6,31,117
+donkey-gh,Donkey Republic - Gent,Gent,BE,51.05,3.7303,450,480,2007
+dott-ibiza,Dott Ibiza,Ibiza,ES,38.91,1.4334,27,184,0
+dott-murcia,Dott,Murcia,ES,37.9872,-1.1287,595,481,0
+dott-tarragona,Dott Tarragona,Tarragona,ES,41.1178,1.2553,110,479,0
+dubai-careem-bike,Dubai Careem BIKE,Dubai,AE,25.1713,55.2324,194,998,2084
+dublinbikes,dublinbikes,Dublin,IE,53.3498053,-6.2603097,114,1393,2209
+e-motion-rovereto,e.motion,Rovereto,IT,45.88710661061543,11.042242751867644,19,95,57
+e-motion-trento,e.motion,Trento,IT,46.06643205823519,11.122145390351879,86,240,638
+easybike-didymoteicho,EasyBike,Didymoteicho,GR,41.3502539849,26.4972960949,7,10,4
+easybike-glyfada,EasyBike,Glyfada,GR,37.8715809825,23.7355544376,2,7,1
+easybike-igoumenitsa,EasyBike,Igoumenitsa,GR,39.5005770633,20.2635206985,2,2,0
+easybike-ioannina,EasyBike,Ioannina,GR,39.6639818,20.8522784,4,6,3
+easybike-irakleio,EasyBike,Irakleio,GR,35.338735,25.144213,3,100,0
+easybike-karditsa,EasyBike,Karditsa,GR,39.3634604,21.9211192,6,29,7
+easybike-kinouria,EasyBike,Kinouria,GR,37.1476704305,22.8933729935,2,4,1
+easybike-komotini,EasyBike,Komotini,GR,41.117833,25.4041307,6,13,15
+easybike-mani,EasyBike,Mani,GR,41.4097472,26.4024952,2,100,0
+easybike-patra,EasyBike,Patra,GR,38.2410966371,21.7259683418,11,9,7
+easybike-rethymno,EasyBike,Rethymno,GR,35.3667571777,24.4832845736,4,1,3
+easybike-samos,EasyBike,Samos,GR,37.754065919,26.9787850189,4,4,19
+ecobici,EcoBici,Cd de México,MX,19.4326077,-99.133208,677,4613,12624
+ecobici-buenos-aires,Ecobici,Buenos Aires,AR,-34.630665,-58.41156,399,2207,4554
+edeka-gruenheide-mark,EDEKA Grünheide,Grünheide (Mark),DE,52.4247,13.8203,17,139,110
+eifel,Eifel e-Bike,Eifel e-Bike,DE,50.5771,6.64673,52,84,108
+elpaso,El Paso BCycle,"El Paso, TX",US,31.76148,-106.48507,19,70,105
+emobi-osijek,eMobi (Croatia),Osijek,HR,45.554,18.6943,26,108,84
+encicla,EnCicla,Medellin,CO,6.2443,-75.5735,137,396,2072
+enna,Enna,Enna,IT,37.56342572664775,14.27973747253418,5,25,15
+eoulling-sejong,어울링 (Eoulling),세종 (Sejong),KR,36.4901,127.2829,701,3302,0
+famose,Fa.Mo.Se,Senigallia,IT,43.7603,13.1139,25,156,4
+figas,Figas,Figueira da Foz,PT,40.1548,-8.8613,7,0,123
+foli,Fölläri bikes,Turku,FI,60.4506,22.2666,266,678,2445
+fortworth,Trinity Metro Bikes,"Fort Worth, TX",US,32.7516,-97.32888,56,298,426
+free-bike-sharing,FRee Bike sharing,Frosinone,IT,41.645081,13.342123,9,30,36
+frelo-freiburg,Frelo,Freiburg,DE,47.9958,7.84453,124,717,336
+galway,TFI Bikes,Galway,IE,53.2783491544,-9.05069143207,23,0,350
+ganxeta-reus,Ganxeta,Reus,ES,41.1589,1.10623,21,201,253
+gbici,Gbici,Getafe,ES,40.308,-3.7301,18,77,123
+gijon,Gijón Bici,Gijón,ES,43.5396116,-5.6663604,47,165,0
+gimme-bike,Gimme Bike,Varese,IT,45.8183902,8.823913,22,24,82
+gira,Gira,Lisbon,PT,38.724954,-9.149334,195,1194,2700
+girocleta,Girocleta,Girona,ES,41.9794005,2.8214264,36,340,548
+gobiki,Biki,Honolulu,US,21.3043,-157.856,132,653,1744
+goodbike,GoodBike,Padova,IT,45.4064349,11.8767611,24,0,329
+grad-drnis-drnis,Nextbike,Drniš,HR,43.8425,16.1197,6,0,40
+grad-ivanic-grad-ivanic-grad,Grad Ivanić-Grad,Ivanic Grad,HR,45.7062,16.3919,5,0,0
+grad-karlovac-karlovac,Grad Karlovac,Karlovac,HR,45.4905,15.5503,13,29,0
+grad-makarska-makarska,Grad Makarska,Makarska,HR,43.2992,17.0184,1,0,0
+grad-metkovic-metkovic,Grad Metković,Metković,HR,43.0654,17.642,4,0,28
+grad-sibenik-sibenik,Grad Šibenik,Šibenik,HR,43.733,15.8982,12,31,0
+grad-sisak-sisak,Grad Sisak,Sisak,HR,45.4875,16.3753,5,24,2
+grad-slavonski-brod-slavonski-brod,Grad Slavonski Brod,Slavonski Brod,HR,45.1656,18.0183,10,37,0
+grad-split,Grad Split (Croatia),Split,HR,43.5162,16.4637,66,199,246
+grad-split-opcina-hrvace,Grad Split (Croatia),Općina Hrvace,HR,43.7553,16.6197,1,0,2
+grad-split-opcina-klis,Grad Split (Croatia),Općina Klis,HR,43.5605,16.5269,2,10,5
+grad-split-opcina-otok-dalmatinski,Grad Split (Croatia),Općina Otok Dalmatinski,HR,43.6889,16.7361,1,0,2
+grad-split-podstrana,Grad Split (Croatia),Podstrana,HR,43.4934,16.5598,2,20,0
+grad-split-sinj,Grad Split (Croatia),Sinj,HR,43.7031,16.6364,1,0,2
+grad-split-solin,Grad Split (Croatia),Solin,HR,43.5441,16.4833,8,81,0
+grad-split-trogir,Grad Split (Croatia),Trogir,HR,43.5234,16.2476,3,22,17
+grad-velika-gorica-velika-gorica,Grad Velika Gorica,Velika Gorica,HR,45.7161,16.0683,4,0,0
+grad-vukovar,Grad Vukovar (Croatia),Vukovar,HR,45.3575,18.9895,2,0,10
+grad-zadar-zadar,Grad Zadar,Zadar,HR,44.0058,15.2183,8,37,3
+grad-zapresic,Grad Zaprešić (Croatia),Zaprešić,HR,45.8622,15.8049,8,23,0
+greenbikeslc,GREENbike,Salt Lake City,US,40.76745,-111.88736,60,482,590
+greenville,Greenville BCycle,"Greenville, SC",US,34.85261759999999,-82.3940104,13,25,93
+greifswald,StadtRad Greifswald,Greifswald (StadtRad),DE,54.0961,13.3787,21,172,105
+hellocycling-aichi,HELLO CYCLING Aichi,愛知県 (Aichi),JP,35.1827,136.9096,235,461,705
+hellocycling-chiba,HELLO CYCLING Chiba,千葉県 (Chiba),JP,35.6687,140.0201,1160,4195,4642
+hellocycling-ehime,HELLO CYCLING Ehime,愛媛県 (Ehime),JP,33.8445,132.76913,34,115,136
+hellocycling-fukuoka,HELLO CYCLING Fukuoka,福岡県 (Fukuoka),JP,33.8823,130.8759,53,118,250
+hellocycling-gifu,HELLO CYCLING Gifu,岐阜県 (Gifu),JP,35.3348,137.1236,45,79,125
+hellocycling-hiroshima,HELLO CYCLING Hiroshima,広島県 (Hiroshima),JP,34.40061,133.19824,6,14,27
+hellocycling-hyougo,HELLO CYCLING Hyougo,兵庫県 (Hyougo),JP,34.7356,135.3697,305,813,1062
+hellocycling-ibaraki,HELLO CYCLING Ibaraki,茨城県 (Ibaraki),JP,36.0852,140.2008,68,117,335
+hellocycling-iwate,HELLO CYCLING Iwate,岩手県 (Iwate),JP,39.6992,141.1343,4,15,23
+hellocycling-kagawa,HELLO CYCLING Kagawa,香川県 (Kagawa),JP,34.4898,134.26,48,169,423
+hellocycling-kanagawa,HELLO CYCLING Kanagawa,神奈川県 (Kanagawa),JP,35.3629,139.4677,1713,6584,4143
+hellocycling-kumamoto,HELLO CYCLING Kumamoto,熊本県 (Kumamoto),JP,32.21207,130.75388,6,18,20
+hellocycling-kyoto,HELLO CYCLING Kyoto,京都府 (Kyoto),JP,35.01897,135.75747,150,454,634
+hellocycling-nagano,HELLO CYCLING Nagano,長野県 (Nagano),JP,36.2395,137.9697,69,194,501
+hellocycling-nara,HELLO CYCLING Nara,奈良県 (Nara),JP,34.6819,135.8007,140,198,488
+hellocycling-okinawa,HELLO CYCLING Okinawa,沖縄県 (Okinawa),JP,26.2127,127.6828,222,544,807
+hellocycling-osaka,HELLO CYCLING Osaka,大阪府 (Osaka),JP,34.6917,135.5091,1352,3559,5427
+hellocycling-saga,HELLO CYCLING Saga,佐賀県 (Saga),JP,33.2622,130.2988,0,0,0
+hellocycling-saitama,HELLO CYCLING Saitama,埼玉県 (Saitama),JP,35.86017,139.64347,1789,6716,7006
+hellocycling-shizuoka,HELLO CYCLING Shizuoka,静岡県 (Shizuoka),JP,34.9769,138.3855,348,725,1484
+hellocycling-tochigi,HELLO CYCLING Tochigi,栃木県 (Tochigi),JP,36.75349,139.6115,22,49,98
+hellocycling-tokyo,HELLO CYCLING Tokyo,東京都 (Tokyo),JP,35.671,139.765,3156,11062,10878
+heraeus-hanau,Heraeus Hanau,Hanau,DE,50.1387,8.94429,5,18,31
+hi-bike-fort-william,Hi-Bike Fort William,Fort William,GB,56.8171,-5.1054,13,36,64
+hi-bike-inverness,Hi-Bike Inverness,Inverness,GB,57.4767,-4.2269,14,36,67
+hibike,Hibike,Kailua-Kona,US,19.6417,-155.9962,23,123,231
+ibizi-ibiza-city,ibizi,Ibiza-City,ES,38.9066,1.42046,5,0,47
+idecycle,IDEcycle,Pau,FR,43.2957547,-0.3685668,14,121,148
+indego,Indego,"Philadelphia, PA",US,39.95378,-75.16374,264,1813,3134
+indiana-pacers-bikeshare,Indiana Pacers Bikeshare,"Indianapolis, IN",US,39.76593,-86.16216,51,280,514
+infralobo,Smart Bikes by Infralobo,Vale do Lobo,PT,37.055,-8.0643,24,23,34
+integrabike,Integrabike,Sorocaba,BR,-23.5015,-47.4526,15,66,139
+jackson,Jackson County BCycle,"Jackson, MI",US,42.2462,-84.4031,1,1,5
+jastrebarsko-jastrebarsko,Nextbike,Jastrebarsko,HR,45.6692,15.6541,1,0,6
+jesinbici,JesinBici,Jesi,IT,43.522601,13.244448,4,20,12
+joco-new-york,JOCO New York,New York,US,40.7572,-73.9859,35,357,260
+karuvelo,Karu'Vélo,Pointe-à-Pitre,FR,16.2411,-61.5331,14,39,88
+kolumbus-rogaland,Bysykkelen,Rogaland,NO,58.9689,5.731,205,364,931
+komornicki-system-rowerowy-komorniki,Komornicki System Rowerowy Poland,Komorniki,PL,52.3347,16.8094,2,0,11
+kotobike,Kotobike,京都 (Kyoto),JP,35.0115,135.7518,107,245,662
+kuitunbike,Kuitun Bike,奎屯市 (Kuitun),CN,44.429,84.9009,60,21,1159
+kvb-rad-koln,KVB Rad,Köln,DE,50.9429,6.95649,196,447,89
+lastenvelo-freiburg,LastenVelo Freiburg,Freiburg,DE,47.9981,7.8439,43,18,0
+le-marcel,Le Marcel,Troyes,FR,48.2997,4.0792,27,107,188
+le-velo,LeVélo,Marseille,FR,43.296482,5.36978,203,721,3750
+le-velo-star,LE vélo Star,Rennes,FR,48.114167,-1.680833,57,417,964
+lecce,lecce,Lecce,IT,40.35040350928062,18.177824020385742,6,26,34
+lecco,Bicincittà,Lecco,IT,45.8565698,9.397670399999999,12,60,36
+li-bia-velo,Li bia velo,Namur,BE,50.465328,4.867665,27,205,182
+libelo,Libélo,Valence,FR,44.922726,4.905634,53,231,356
+limerick,TFI Bikes,Limerick,IE,52.668746,-8.627809,24,0,350
+lincoln,BikeLNK,"Lincoln, NE",US,40.8087,-96.7075,21,106,119
+linkbike-penang,LinkBike,Penang,MY,5.4192,100.3281,28,65,228
+longanoinbici,LonganoinBici,Barcellona Pozzo di Gotto,IT,38.149812517944284,15.212116241455078,5,25,15
+lovelolibreservice,Lovélo Libre Service,Rouen,FR,49.4432552,1.0999821,122,542,862
+lovesharing-canary-islands-fuerteventura,Lovesharing (Canary Islands),Fuerteventura,ES,28.3584,-14.064,6,21,4
+lovesharing-canary-islands-gran-canaria,Lovesharing (Canary Islands),Gran Canaria,ES,27.8154,-15.5182,7,17,13
+lovesharing-canary-islands-lanzarote,Lovesharing (Canary Islands),Lanzarote,ES,29.0491,-13.5729,1,5,2
+lrm-lublin-lublin,LRM Lublin,Lublin,PL,51.2469,22.5697,121,0,1252
+lundahoj,Lundahoj,Lund,SE,55.7046601,13.1910073,19,265,205
+lviv-odessa,Nextbike,Odessa,UA,46.463,30.7042,26,0,0
+madison,BCycle,"Madison, WI",US,43.07571,-89.38527,99,440,541
+malmobybike,Malmö by bike,Malmö,SE,55.605,13.0038,98,781,1533
+manerba-in-bici,Manerba in Bici,Manerba del Garda,IT,45.561179,10.559406,7,35,21
+mar-e-bici,Mar e Bici,Marciana Marina,IT,42.805855,10.196514,2,10,6
+marseillan,Marseillan vélo libre-service,Marseillan,FR,43.3572,3.5283,3,0,19
+mbajk,MBajk,Maribor,SI,46.5547,15.6459,36,311,408
+mcallen,RGV BCycle,"McAllen, TX",US,26.20438,-98.2261,7,17,41
+medina-careem-bike,Medina Careem BIKE,Medina,SA,24.4682,39.612,61,360,637
+meglio-in-bici,Meglio in Bici,Cernusco sul Naviglio - Pioltello - Carugate,IT,45.520541,9.341984,8,40,24
+mein-konrad-konstanz,Mein konrad,Konstanz,DE,47.6732,9.1663,37,172,0
+meiob,meioB,Médio Tejo,PT,39.6024,-8.4069,78,122,412
+memphis,Explore Bike Share,"Memphis, TN",US,35.1486,-90.045,33,103,105
+metro-bike-share,Metro Bike Share,"Los Angeles, CA",US,34.04855,-118.25905,219,1525,1818
+metropolradruhr-bochum,metropolradruhr,Bochum,DE,51.4813,7.2133,94,568,717
+metropolradruhr-bottrop,metropolradruhr,Bottrop,DE,51.5263,6.94611,7,21,44
+metropolradruhr-dortmund,metropolradruhr,Dortmund,DE,51.5141,7.46255,96,447,494
+metropolradruhr-duisburg,metropolradruhr,Duisburg,DE,51.4487,6.77513,53,289,182
+metropolradruhr-essen,metropolradruhr,Essen,DE,51.4425,7.02301,84,512,232
+metropolradruhr-gelsenkirchen,metropolradruhr,Gelsenkirchen,DE,51.5404,7.07039,27,87,103
+metropolradruhr-hamm,metropolradruhr,Hamm,DE,51.6775,7.84836,8,47,19
+metropolradruhr-herne,metropolradruhr,Herne,DE,51.5363,7.21493,24,88,76
+metropolradruhr-mulheim-adr,metropolradruhr,Mülheim a.d.R.,DE,51.4308,6.87401,33,134,141
+metropolradruhr-oberhausen,metropolradruhr,Oberhausen,DE,51.4936,6.85169,22,72,138
+metrorower,Metrorower,Górnośląsko-Zagłębiowska Metropolia,PL,50.2664,19.0217,926,6692,1031
+mibici-guadalajara,MIBICI,Guadalajara,MX,20.6737883,-103.3704325,367,2532,3380
+mibicitubici,Mi bici tu bici,Rosario,AR,-32.95,-60.65,91,721,905
+mibisivalencia,MIBISI,"Valencia, área metropolitana",ES,39.4745,-0.4189,49,137,414
+mimuovofe,Mi Muovo in Bici,Ferrara,IT,44.8350382,11.6240562,8,40,24
+mobibike-dresden,MOBIbike,Dresden,DE,51.0535,13.7387,504,696,228
+mobibikes,Mobi,Vancouver,CA,49.2827,-123.1207,259,1853,2783
+mogo-detroit,MoGo,"Detroit, MI",US,42.331548,-83.0465,81,386,672
+monabike,MonaBike,Monaco,MC,43.733333,7.416667,53,398,390
+monopoli-bike,Monopoli BIKE,Monopoli,IT,40.94519109440738,17.311687995336918,6,20,12
+movemix-bike,Movemix Bike,Halle (Saale),DE,51.4938,11.9628,104,454,107
+mvg-meinrad-nextbike-mainz,meinRad MVG Mainz,Mainz,DE,50.0153,8.252,188,1059,1348
+mvrad-anklam,MV-Rad,Anklam,DE,53.8614,13.6907,0,0,0
+mvrad-hq,MV-Rad,MV-Rad,DE,53.6707,12.4255,50,323,246
+nashville,Nashville BCycle,"Nashville, TN",US,36.15768,-86.773,35,178,233
+nbici,nbici,Pamplona,ES,42.8116631,-1.6482653,5,0,0
+neuchatelroule,Neuchâtelroule,Neuchâtel,CH,46.9916,6.9269,64,275,1134
+nextbike-10vorwien,Nextbike,10vorWien,AT,48.3403,16.279,6,0,0
+nextbike-auckland-waterfront,Nextbike,Auckland Waterfront,NZ,-36.841,174.763,28,0,99
+nextbike-bergamo,nextbike Bergamo,Bergamo,IT,45.6986,9.67567,74,401,159
+nextbike-berlin,Nextbike,Berlin,DE,52.5087,13.3563,3779,2849,15055
+nextbike-berounsko,nextbike Berounsko,Berounsko,CZ,49.9616,14.064,26,144,231
+nextbike-bielefeld,meinSiggi,Bielefeld,DE,52.0257,8.53286,64,207,0
+nextbike-bonn,Nextbike,Bonn,DE,50.7367,7.09541,78,64,0
+nextbike-brno,nextbike Brno,Brno,CZ,49.1911,16.6148,272,550,152
+nextbike-brno-kurim,nextbike Brno,Kuřim,CZ,49.2994,16.5368,24,38,3
+nextbike-cardiff,Nextbike,Cardiff,GB,51.4848,-3.19062,2,0,30
+nextbike-christchurch,Nextbike,Christchurch,NZ,-43.5341,172.621,2,8,5
+nextbike-dusseldorf,Nextbike,Düsseldorf,DE,51.2243,6.77204,245,302,7
+nextbike-dvur-kralove,nextbike Dvůr Králové,Dvůr Králové,CZ,50.4278,15.8162,25,71,4
+nextbike-ennetmoos,Nextbike,Ennetmoos,CH,46.9573,8.3377,2,5,0
+nextbike-erfurt,Nextbike,Erfurt,DE,50.9785,11.0334,11,0,0
+nextbike-focsani,nextbike Romania,Focșani,RO,45.6947,27.1851,1,0,1
+nextbike-frydek-mistek,nextbike Frýdek-Místek,Frýdek-Místek,CZ,49.6832,18.3457,126,216,0
+nextbike-giessen,Nextbike,Gießen,DE,50.5943,8.68097,47,427,0
+nextbike-glasgow,Nextbike,Glasgow,GB,55.8589,-4.25549,113,372,576
+nextbike-gross-enzersdorf,Nextbike,Groß Enzersdorf,AT,48.1986,16.5496,3,11,0
+nextbike-gutersloh,Nextbike,Gütersloh,DE,51.9049,8.39275,5,8,0
+nextbike-havirov,nextbike Havířov,Havířov,CZ,49.7799,18.4328,63,0,0
+nextbike-hergiswil,Nextbike,Hergiswil,CH,46.9905,8.30829,8,16,0
+nextbike-hodonin,nextbike Hodonín,Hodonín,CZ,48.8489,17.1327,31,72,71
+nextbike-hollabrunn,Nextbike,Hollabrunn,AT,48.562,16.0785,2,8,0
+nextbike-horw,Nextbike,Horw,CH,47.0188,8.30828,19,45,0
+nextbike-hradec-kralove,nextbike Hradec Králové,Hradec Králové,CZ,50.2079,15.8334,93,252,39
+nextbike-ivano-frankivsk,Nextbike,Ivano Frankivsk,UA,48.9281,24.7103,0,0,0
+nextbike-jicin,nextbike Jičín,Jičín,CZ,50.4367,15.3743,23,60,0
+nextbike-jihlava,nextbike Jihlava,Jihlava,CZ,49.4078,15.6061,56,0,6
+nextbike-karlsruhe,KVV.nextbike,Karlsruhe,DE,49.0102,8.41827,51,124,11
+nextbike-kassel,Nextbike,Kassel,DE,51.3127,9.47975,64,368,154
+nextbike-kladno,nextbike Kladno,Kladno,CZ,50.1435,14.1082,79,145,203
+nextbike-klagenfurt,Nextbike,Klagenfurt,AT,46.6335,14.3085,50,257,159
+nextbike-koprivnice,nextbike Kopřivnice,Kopřivnice,CZ,49.5934,18.1422,32,0,0
+nextbike-krnov,nextbike Krnov,Krnov,CZ,50.0703,17.8837,34,0,50
+nextbike-leipzig,Nextbike,Leipzig,DE,51.3415,12.3625,146,314,0
+nextbike-limassol,Nextbike,Limassol,CY,34.6823,33.0464,96,361,121
+nextbike-lippstadt,Nextbike,Lippstadt,DE,51.6755,8.34394,24,102,17
+nextbike-luzern,Nextbike,Luzern,CH,47.0472,8.30446,101,410,0
+nextbike-lviv,Nextbike,Lviv,UA,49.8402,24.0182,19,0,164
+nextbike-marburg,Nextbike,Marburg,DE,50.8019,8.76444,55,334,0
+nextbike-mladoboleslavsko-mlada-boleslav,nextbike Mladoboleslavsko,Mladá Boleslav,CZ,50.4278,14.8999,119,218,118
+nextbike-mladoboleslavsko-mnichovo-hradiste,nextbike Mladoboleslavsko,Mnichovo Hradiště,CZ,50.5218,14.9741,18,33,22
+nextbike-modling,Nextbike,Mödling,AT,48.1047,16.3202,10,28,0
+nextbike-most,nextbike Most,Most,CZ,50.5014,13.6361,44,118,2
+nextbike-nicosia,Nextbike,Nicosia,CY,35.1728,33.3653,86,221,62
+nextbike-norderstedt,Nextbike,Norderstedt,DE,53.6969,10.002,19,138,43
+nextbike-novy-jicin,nextbike Nový Jičín,Nový Jičín,CZ,49.5976,18.008,32,70,0
+nextbike-oberdorf,Nextbike,Oberdorf,CH,46.9563,8.3884,4,15,0
+nextbike-olbramovicevotice,nextbike OlbramoviceVotice,Olbramovice/Votice,CZ,49.6525,14.6355,18,45,0
+nextbike-oldenburg,OLi-Bike,Oldenburg,DE,53.1448,8.22485,29,59,0
+nextbike-olomouc,nextbike Olomouc,Olomouc,CZ,49.5929,17.2459,68,89,0
+nextbike-opava,nextbike Opava,Opava,CZ,49.9289,18.2634,62,123,6
+nextbike-ortenaukreis,Nextbike Ortenaukreis,Ortenaukreis,DE,48.4721,7.94243,75,411,147
+nextbike-ostrava,nextbike Ostrava,Ostrava,CZ,49.8344,18.2823,397,1155,132
+nextbike-ostrava-hlucin,nextbike Ostrava,Hlučín,CZ,49.898,18.1923,12,44,0
+nextbike-ostrava-vresina,nextbike Ostrava,Vřesina,CZ,49.825,18.1206,8,0,0
+nextbike-pardubice,nextbike Pardubice,Pardubice,CZ,50.0343,15.7812,61,0,125
+nextbike-pisek,nextbike Písek,Písek,CZ,49.3051,14.1463,61,107,2
+nextbike-potsdam,Nextbike,Potsdam,DE,52.3997,13.0676,134,317,304
+nextbike-praha,nextbike Praha,Praha,CZ,50.0592,14.5761,1043,937,6335
+nextbike-praha-ricany,nextbike Praha,Říčany,CZ,49.9976,14.6685,33,64,211
+nextbike-prerov,nextbike Prerov,Prerov,CZ,49.4574,17.4408,66,148,136
+nextbike-prostejov,nextbike Prostejov,Prostejov,CZ,49.4722,17.1055,65,0,175
+nextbike-russelsheim-am-main,Nextbike,Rüsselsheim am Main,DE,49.9881,8.42142,16,126,19
+nextbike-rychnovsko,nextbike Rychnovsko,Rychnovsko,CZ,50.1668,16.2828,18,40,2
+nextbike-sarajevo,Nextbike,Sarajevo,BA,43.85,18.39,23,62,0
+nextbike-sarnen,Nextbike,Sarnen,CH,46.8963,8.24614,25,66,0
+nextbike-serfaus,Nextbike,Serfaus,AT,47.0387,10.6048,3,0,16
+nextbike-stans,Nextbike,Stans,CH,46.9593,8.36836,21,45,0
+nextbike-stansstad,Nextbike,Stansstad,CH,46.9801,8.34098,10,25,0
+nextbike-stirling,Nextbike,Stirling,GB,56.1165,-3.9369,10,66,63
+nextbike-stpolten,Nextbike,St.Pölten,AT,48.2058,15.6232,55,326,8
+nextbike-sursee,Nextbike,Sursee,CH,47.1713,8.10877,37,122,0
+nextbike-thermenregion,Nextbike,Thermenregion,AT,47.9892,16.2646,5,7,0
+nextbike-trutnov,nextbike Trutnov,Trutnov,CZ,50.5616,15.9126,21,46,0
+nextbike-tulln,Nextbike,Tulln,AT,48.3269,16.0569,12,43,6
+nextbike-tuzla,Nextbike,Tuzla,BA,44.5392,18.675,15,44,21
+nextbike-uherske-hradiste,nextbike Uherské Hradiště,Uherské Hradiště,CZ,49.0678,17.4665,41,71,2
+nextbike-university-of-surrey,Nextbike,Surrey,GB,51.2422,-0.590594,10,0,116
+nextbike-urdaibai,BBK Klimabizi,Urdaibai,ES,43.395,-2.68815,4,24,20
+nextbike-vinnytsia,Nextbike,Vinnytsia,UA,49.2328,28.4625,25,0,243
+nextbike-vrchlabi,nextbike Vrchlabí,Vrchlabí,CZ,50.6222,15.6126,20,41,142
+nextbike-wachau,Nextbike,Wachau,AT,48.3188,15.4166,1,0,0
+nextbike-wienerwald,Nextbike,WienerWald,AT,48.1926,16.141,5,0,0
+nextbike-wiesbaden,Nextbike,Wiesbaden,DE,50.0709,8.24322,36,189,0
+nextbike-wolfenschiessen,Nextbike,Wolfenschiessen,CH,46.9079,8.39767,7,23,0
+nextbike-wrneustadt,Nextbike,Wr.Neustadt,AT,47.8167,16.2426,20,111,0
+nextbike-wurzburg,Nextbike,Würzburg,DE,49.8,9.93333,15,1,54
+nextbike-zagreb,Nextbike,Zagreb,HR,45.7984,15.9789,44,231,2
+nextbike-zlin,nextbike Zlín,Zlín,CZ,49.238,17.6788,98,159,22
+nibelungen-bike-braunschweig,Nibelungen-Bike,Braunschweig,DE,52.2597,10.5307,97,405,0
+nomago-gorica,Nomago Bikes - GO2GO,Nova Gorica,SI,45.9576,13.6406,20,58,93
+nomago-gorizia,GO2GO - Gorizia,Gorizia,IT,45.9469,13.6208,3,5,1
+nomago-ljubljana,Nomago Bikes - LJUBLJANA,Ljubljana,SI,46.0577,14.5013,40,187,62
+nomago-portoroz,Nomago Bikes - PORTOROZ,Portorož,SI,45.5054,13.5979,1,0,0
+nomago-zanaprej,Nomago Bikes - ZANAPREJ,Zagorje ob Savi,SI,46.1392,14.9785,7,39,38
+nomagobikes-celje,NomagoBikes,Celje,SI,46.2388,15.2693,40,170,265
+nomagobikes-lasko,NomagoBikes,Laško,SI,46.1458,15.2312,8,28,21
+notoinbici,NotoinBici,Noto,IT,36.889437754839854,15.074658393859863,4,20,12
+novara,Novara,Novara,IT,45.44574,8.622165,14,70,42
+nubija-changwon,누비자 (Nubija),창원시 (Changwon),KR,35.22369091380072,128.67059887227657,441,0,5147
+oeynrad-bad-oeynhausen,Oeynrad,Bad Oeynhausen,DE,52.2051,8.80074,3,0,20
+olbia-bike,Olbia Bike,Olbia,IT,40.9240543,9.4994397,3,17,10
+oleski-rower-miejski-olesno,Oleski Rower Miejski Poland,Olesno,PL,50.8773,18.4212,1,0,0
+omaha,Heartland BCycle,"Omaha, NE",US,41.25832,-96.00853,82,361,371
+ontibici,Ontibici,Ontinyent,ES,38.8211,-0.609,24,40,96
+opcina-brinje-brinje,Općina Brinje,Brinje,HR,44.9977,15.1258,2,0,14
+opcina-pitomaca,Općina Pitomača (Croatia),Pitomača,HR,45.9077,17.2622,1,0,8
+optymo,Optymo,Belfort,FR,47.641111,6.849444,35,180,451
+oslo-bysykkel,Bysykkel,Oslo,NO,59.913869,10.752245,267,1825,3989
+ossola,Comunità Montana Valli dell'Ossola,Santa Maria Maggiore - Malesco - Villette,IT,46.127196,8.499169,6,30,18
+ov-fiets,OV-fiets,Nederland,NL,52.1449,5.5603,283,9944,0
+parkinbici,Parkinbici,Parco Nazionale del Gargano,IT,41.7817081,15.8516421,9,45,27
+parma,Mi Muovo in Bici,Parma,IT,44.801485,10.3279036,46,15,447
+passofundo,Passo Fundo Vai de Bici,Passo Fundo,BR,-28.2555,-52.3981,8,39,72
+pavia-in-bici,Pavia in bici,Pavia,IT,45.1847248,9.1582069,7,35,21
+peacehealth-rides,PeaceHealth Rides,"Eugene, OR",US,44.0502,-123.0949,153,346,1127
+perivelo,Périvélo,Grand Périgueux,FR,45.1929,0.7217,3,20,30
+petites-reines,Les Petites Reines,Les Sables d'Olonne,FR,46.4971,-1.7805,15,66,95
+piacenza,Mi Muovo in Bici,Piacenza,IT,45.0473754,9.6865813,2,1,17
+pickebike-aubonne,PickeBike Aubonne,Aubonne,CH,46.4949,6.3963,14,40,0
+pickebike-basel,PickeBike Basel,Basel,CH,47.5579,7.5902,60,34,0
+pickebike-fribourg,PickeBike Fribourg,Fribourg,CH,46.8039,7.1505,53,2,0
+pinerolo,Pinerolo,Pinerolo,IT,44.8850256,7.3499953,9,45,27
+piotrkowski-rower-miejski-piotrkow-trybunalski,Piotrkowski Rower Miejski Poland,Piotrków Trybunalski,PL,51.3975,19.6779,5,30,29
+pittsburgh,Pogoh,"Pittsburgh, PA",US,40.4406,-79.9893,60,458,596
+pobiedziski-rower-gminny-pobiedziska,Pobiedziski Rower Gminny Poland,Pobiedziska,PL,52.4765,17.2866,3,16,8
+pombike,Pombike,Pombal,PT,39.915278,-8.632222,8,3,34
+pony-nice,Pony,Nice,FR,43.695949,7.271413,0,0,0
+pordenone,Pordenone,Pordenone,IT,45.94790101663391,12.674491020251475,3,15,13
+portofino-park-and-bike,Portofino Park and Bike,Santa Margherita Ligure - Portofino - Camogli,IT,44.335084,9.211264,7,35,21
+prata-camportaccio,Prata Camportaccio,Prata Camportaccio,IT,46.3042146,9.3964914,1,0,0
+publibike-bern,PubliBike Bern,Bern,CH,46.94841,7.43767,251,1321,6965
+publibike-fribourg,PubliBike Fribourg,Fribourg,CH,46.805708,7.160339,0,0,0
+publibike-lausanne-morges,PubliBike Lausanne-Morges,Lausanne,CH,46.516649,6.62948,69,18,1463
+publibike-region-de-nyon,PubliBike Région de Nyon,Nyon,CH,46.381706,6.240311,50,224,1081
+publibike-sottoceneri-ti,PubliBike Sottoceneri (TI),Lugano,CH,46.00491,8.95244,116,518,4697
+publibike-zuerich,PubliBike Zürich,Zürich,CH,47.38728,8.53767,177,11,4215
+punpunbikeshare,Pun Pun Bike Share,Bangkok,TH,13.75,100.516667,0,0,0
+qrobici,Qrobici,Santiago de Querétaro,MX,20.5939,-100.3958,40,64,501
+ready4green-graben,Graben - ready4green,Graben,DE,51.1242,10.8984,2,27,0
+redding,Redding BCycle,"Redding, CA",US,40.5875,-122.386,22,47,59
+reddy-bike-share,Reddy Bike Share,"Buffalo, NY",US,42.89373841865211,-78.8718044757843,124,425,335
+reggio-emilia,Mi Muovo in Bici,Reggio Emilia,IT,44.6989932,10.6296859,16,80,48
+regivelo-kreuzlingen,Regivelo,Kreuzlingen,CH,47.646,9.1716,20,68,77
+relay-atlanta,HOPR,"Atlanta, GA",US,33.7627941119619,-84.38727110624313,113,56,672
+revgmobic,mobic,REVG,DE,50.8493,6.6687,156,444,19
+rietinbici,Rietinbici,Rieti,IT,42.40262397383167,12.86099910736084,15,21,159
+rimini,Mi Muovo in Bici,Rimini,IT,44.0570817,12.5646003,7,35,21
+rivibike,Rivibike,Riviera de São Lourenço,BR,-23.7998,-46.0223,7,44,27
+rmbikes,RMBikes,Rio Maior,PT,39.3374,-8.9374,6,15,34
+rower-powiatowy-sokolow-podlaski,Rower Powiatowy Sokołów Podlaski,Sokołów Podlaski,PL,52.4082,22.2525,6,31,23
+rowerowe-lodzkie-rl-koluszki,Rowerowe Łódzkie,Koluszki,PL,51.7401,19.835,23,71,178
+rowerowe-lodzkie-rl-kutno,Rowerowe Łódzkie,Kutno,PL,52.2317,19.3564,17,87,95
+rowerowe-lodzkie-rl-lask,Rowerowe Łódzkie,Łask,PL,51.5893,19.142,6,31,32
+rowerowe-lodzkie-rl-lodz-rl,Rowerowe Łódzkie,Łódź,PL,51.7674,19.4575,15,76,120
+rowerowe-lodzkie-rl-lowicz,Rowerowe Łódzkie,Łowicz,PL,52.1057,19.9381,12,80,55
+rowerowe-lodzkie-rl-pabianice,Rowerowe Łódzkie,Pabianice,PL,51.6651,19.3548,15,71,78
+rowerowe-lodzkie-rl-sieradz,Rowerowe Łódzkie,Sieradz,PL,51.5902,18.7382,13,92,64
+rowerowe-lodzkie-rl-skierniewice,Rowerowe Łódzkie,Skierniewice,PL,51.9539,20.1469,10,51,52
+rowerowe-lodzkie-rl-zdunska-wola,Rowerowe Łódzkie,Zduńska Wola,PL,51.6011,18.938,13,47,67
+rowerowe-lodzkie-rl-zgierz,Rowerowe Łódzkie,Zgierz,PL,51.8551,19.4068,11,57,46
+rsvg-bike,RSVG-Bike,RSVG,DE,50.7669,7.37457,176,379,105
+rtc-bike-share,RTC Bike Share,"Las Vegas, NV",US,36.1438,-115.15682,29,96,219
+rubis-velo,Rubis'Vélo,Bourg-en-Bresse,FR,46.2056,5.2289,38,128,251
+rva-bikes,RVA Bike Share,"Richmond, VA",US,37.53833,-77.43464,21,76,221
+rvk,RVK,RVK e-Bike,DE,50.7069,6.87607,48,43,114
+saluzzo,Saluzzo,Saluzzo,IT,44.6445404,7.492735499999999,9,45,27
+sanantonio,SWell Cycle,"San Antonio, TX",US,29.43701,-98.48236,14,99,107
+santa-barbara,Santa Barbara BCycle,"Santa Barbara, CA",US,34.42178,-119.7001,87,245,304
+santa-cruz,Santa Cruz BCycle,"Santa Cruz, CA",US,36.97484,-122.0277,94,285,495
+santana,Sântana Velo,Sântana,RO,46.3461,21.5064,8,74,86
+santander-brunel,Santander Cycles - Brunel,Brunel University,GB,51.5463,-0.48048,9,65,46
+santander-cycles,Santander Cycles,London,GB,51.51121389999999,-0.1198244,800,9826,10229
+santander-cycles-mk-milton-keynes,Santander Cycles MK,Milton Keynes,GB,52.0406,-0.759417,48,296,401
+santander-cycles-swansea-swansea-university,Santander Cycles,Swansea,GB,51.6106,-3.9764,7,42,51
+santander-monchengladbach,Santander Mönchengladbach,Mönchengladbach,DE,51.1817,6.43578,48,436,53
+sap-walldorf,SAP Walldorf,Walldorf,DE,49.2945,8.62324,18,98,0
+saturn,Saturn,Saturn,RO,43.82,28.7445,2,0,20
+savigliano,Savigliano,Savigliano,IT,44.6470327,7.662463499999999,14,70,42
+savona,Savona,Savona,IT,44.29516444397244,8.463126708984431,7,35,21
+scegli-in-bici,Scegli in Bici,Cremona,IT,45.134914104864116,10.0222648619018,11,45,27
+sellero,Sellero,Sellero,IT,46.06304765446406,10.353434085845947,2,10,6
+semo,semo,Communauté d'agglomération Seine-Eure,FR,49.22,1.17,31,111,180
+senica-bajk,SENICA BAJK,Senica,SK,48.676,17.3642,25,123,111
+seoul-bike,Seoul Bike 따릉이,Seoul,KR,37.5664,126.9785,2724,34779,12045
+sevici,Sevici,Sevilla,ES,37.3880961,-5.9823299,254,2437,2474
+shymkentbike,Shymkentbike,Shymkent,KZ,42.3184,69.5978,24,27,230
+sibiu,Sibiu Bike Share,Sibiu,RO,45.7963,24.1518,57,273,365
+sitycleta-las-palmas-las-palmas-de-gran-canaria,Sitycleta,Las Palmas de Gran Canaria,ES,28.1236,-15.4366,61,290,279
+sixt-riga,SiXT,Rīga,LV,56.9453,24.1033,42,59,184
+ski-rower-chelm,Chełmski Rower,Chełm,PL,51.1318,23.4755,17,153,103
+skrova-bike,Skrova Bysykkel,Skrova,NO,68.1669,14.6611,1,0,12
+slatina-velo-city,Slatina Velo City,Slatina,RO,44.4299,24.3716,5,0,122
+slovnaft-bajk,Slovnaft BAjk,Bratislava,SK,48.1514,17.1056,103,221,1404
+sobi-hamilton,SoBi,"Hamilton, ON",CA,43.25643601915583,-79.86929655075073,191,796,1340
+sobi-long-beach,SoBi,"Long Beach, CA",US,33.76897,-118.19164,101,356,579
+sondrio,Sondrio,Sondrio,IT,46.1698583,9.8787674,4,20,12
+speziainbici,Speziainbici,La Spezia,IT,44.1024504,9.824082599999999,22,29,125
+sprintrad,sprintRAD,Hannover,DE,52.3721,9.73569,96,236,0
+sprottenflotte-kiel,Sprottenflotte,Kiel,DE,54.2837,10.13213,210,950,3166
+stadtrad-hamburg-db,StadtRAD Hamburg,Hamburg,DE,53.550308,10.00063,331,3304,0
+stadtrad-innsbruck,Stadtrad,Innsbruck,AT,47.2632,11.3961,52,485,401
+stadtrad-lueneburg,StadtRAD Lüneburg,Lüneburg,DE,53.248697,10.407776,30,177,0
+stadtrad-stuttgart,RegioRadStuttgart,Stuttgart,DE,48.778147,9.1801512,228,654,0
+stari-grad-hvar,Hvar,Stari Grad,HR,43.1841,16.5886,2,0,12
+styr-staell-goeteborg,"Styr & Ställ (Sweden, Göteborg)",Göteborg,SE,57.6902,11.9881,135,1578,0
+summit-bike-share,Summit Bike Share,"Park City, UT",US,40.6474,-111.4981,24,201,173
+swa-rad-augsburg,SWA Rad,Augsburg,DE,48.3647,10.8916,94,216,51
+system-roweru-gminnego-pielgrzymka,System Roweru Gminnego Poland,Pielgrzymka,PL,51.1185,15.8153,4,14,0
+tallinja-bike,Tallinja Bike,Valletta - Malta - Gozo,MT,35.8992,14.5141,13,0,87
+tanlib,Vélo tanlib,Niort,FR,46.3258,-0.4606,38,170,352
+tashu,Tashu,대전 (Daejeon),KR,36.349,127.3848,1283,1450,0
+telofun,Tel-O-Fun,"Tel Aviv-Yaffo, Giv'atayim, Ramat-Gan",IL,32.087053,34.789776,328,1317,2614
+tembici-bogota,Tembici,Bogotá,CO,4.6569,-74.0656,292,1722,2262
+tempo-velo,Tempo Vélo,Agen,FR,44.2049,0.6212,16,73,90
+terni,Terni,Terni,IT,42.5636168,12.6426604,19,98,52
+thessbike,ThessBike,Thessaloniki,GR,40.6403167,22.9352716,5,82,280
+thun,Donkey Republic Thun,Thun,CH,46.7576,7.6287,36,167,579
+ti-velo,Ti Vélo,Landernau,FR,48.4512,-4.2551,14,58,118
+tigullionbike,Tigullionbike,Sestri Levante - Lavagna,IT,44.272554,9.395714,8,8,38
+tirano-in-bici,Tirano in Bici,Tirano,IT,46.216168,10.1696056,5,25,15
+tlp-velo,Tarbes et Lourdes vls,"Tarbes, Lourdes",FR,43.23,0.07,13,43,83
+torrentbici,TorrentBici,Torrent,ES,39.4319,-0.473,20,48,91
+torvelo,Torvelo,Toruń,PL,53.0138,18.5984,2,0,30
+toyama-cyclocity,cyclocity,富山市,JP,36.6959518,137.2136768,23,209,252
+tradate,Tradate,Tradate,IT,45.70938576720161,8.915993391601548,6,30,18
+treviso,Treviso,Treviso,IT,45.6669011,12.243039,31,10,23
+trofinetes,Trofinetes,Trofa,PT,41.3436,-8.553,17,0,146
+trondheim-bysykkel,Bysykkel,Trondheim,NO,63.4307238,10.3936781,67,653,830
+tuebici,TUeBICI,Santander,ES,43.46230569999999,-3.8099803,38,150,307
+tugo-bike-share,Tugo Bike Share,"Tucson, AZ",US,32.2225,-110.9749,41,242,304
+twisto-velo,Twisto vélo,Caen,FR,49.1813403,-0.3635615,57,190,489
+tychowski-rower-miejski,Tychowski Rower Miejski,Tychowo,PL,53.9288,16.2568,2,20,12
+udine,Udine,Udine,IT,46.0710668,13.2345794,24,0,57
+ugento,Ugento,Ugento,IT,39.9273518,18.1582962,6,30,18
+usedomrad-usedom,UsedomRad,Usedom,DE,53.9779,13.9925,98,923,436
+ustica,Ustica,Ustica,IT,38.7031179,13.1682675,4,20,12
+v3-bordeaux,V³,Bordeaux,FR,44.837789,-0.57918,194,1903,2119
+vagrad,VAG_Rad,Nürnberg,DE,49.4487,11.0794,64,286,284
+vaibike,VaiBike,Vilagarcía de Arousa,ES,42.5954,-8.7659,16,20,91
+valenbisi,Valenbisi,Valencia,ES,39.4699075,-0.3762881,276,2349,2975
+valentine,Valentine BCycle,"Valentine, NE",US,42.8747,-100.5511,1,10,0
+vel-in,Vél'in,Calais,FR,50.95,1.85,76,271,542
+velam,Vélam,Amiens,FR,49.894067,2.295753,27,199,339
+velectin,Velect’in,Calais,FR,50.948056,1.856389,9,2,75
+velhop,Vélhop,Strasbourg,FR,48.583611,7.748056,35,302,169
+velib,Vélib' Métropole,Paris,FR,48.856614,2.3522219,1462,18156,26408
+velibeo,Vélibéo,Brive-la-Gaillarde,FR,45.1583,1.5321,19,68,140
+velitul,Vélitul,Laval,FR,48.0706687,-0.7734022,6,48,53
+velivert,VéliVert,Saint-Étienne,FR,45.396667,4.290833,99,224,1640
+velo,Vélô,Toulouse,FR,43.604652,1.444209,380,2250,4114
+velo-antwerpen,Velo Antwerpen,Antwerpen,BE,51.216667,4.4,316,3987,6093
+velo-baulois,Le Vélo Baulois,La Baule-Escoublac,FR,47.2867,-2.3908,14,69,130
+velo2,Velo2,Cergy,FR,49.03561699999999,2.060325,44,297,567
+velobaie,VeloBaie,Saint-Brieuc,FR,48.514,-2.765,4,32,28
+velobike,Velobike,Astana,KZ,51.166667,71.416667,149,9,1299
+velobike-moscow,Velobike,Moscow,RU,55.75,37.616667,778,44,11621
+velobike-murmansk,Velobike,Murmansk,RU,68.968,33.074,10,16,147
+velobike-nizhniy-novgorod,Velobike,Nizhniy Novgorod,RU,56.194,44.003,12,4,188
+velocite-besancon,VéloCité,Besançon,FR,47.237829,6.024053899999999,28,129,234
+velocite-laon,Vélo'Cité,Laon,FR,49.5639,3.6244,18,41,91
+velocite-mulhouse,VéloCité,Mulhouse,FR,47.750839,7.335888,1,0,22
+velodaqui,Vélos d’Aquí,Argelès-sur-Mer,FR,42.5449,3.0235,6,0,30
+veloh,Veloh,Luxembourg,LU,49.6301025,6.1520185,147,1025,1583
+velok,Vël'Ok,Esch-sur-alzette,LU,49.5024,5.9722,139,414,621
+velomagg,Vélomagg,Montpellier,FR,43.6119,3.8772,54,307,371
+velomat,Vélo MAT,Saint-Malo,FR,48.64,-2.0,19,93,0
+velomodalis,Vélo Modalis,Ligne TER Royan - Angoulême,FR,45.7,-0.33,37,186,0
+velopark-drobeta,Drobeta Velopark,Drobeta,RO,44.6326,22.6564,1,0,1
+velopartage-geneve,VéloPartage,Genève,CH,46.2021,6.1457,598,1230,2001
+veloplus-velotao,Vélo+/VéloTAO,Orléans,FR,47.9027336,1.9086066,36,287,338
+velopop,Vélopop,Avignon,FR,43.943689,4.805833,28,179,324
+velostanlib,vélOstan'lib,Nancy,FR,48.692054,6.184417,37,252,432
+velov,Vélo'V,Lyon,FR,45.764043,4.835659,417,3613,4613
+velozef,VéloZef,Brest,FR,48.3905,-4.48732,29,138,154
+velyceo,vélYcéo,Saint-Nazaire,FR,47.2806,-2.2086,5,34,74
+venezia,Venezia,Venezia,IT,45.4408474,12.3155151,19,95,57
+vercelli,Vercelli,Vercelli,IT,45.32022720000001,8.418573499999999,5,7,58
+verdeciclos,VerdeCiclos,Caldas de Reis,ES,42.6041,-8.6419,1,5,3
+veturilo-nextbike-warsaw,VETURILO 3.0,Warsaw,PL,52.2581,20.9949,337,3165,704
+via-velo,VIA Vélo,Val d'Ille-Aubigné,FR,48.2181,-1.6947,7,3,17
+villo,villo,Bruxelles,BE,50.8503396,4.3517103,348,3773,4044
+vilnius-cyclocity,Cyclocity,Vilnius,LT,54.6871555,25.2796514,35,261,338
+vilvolt,Vilvolt,Epinal,FR,48.1833,6.4508,77,464,0
+visa-frankfurt,VISA,Frankfurt,DE,50.1072,8.66375,253,432,0
+vitelinhas,Vitelinhas,Fafe,PT,41.4513,-8.1728,3,13,22
+vlille,V'Lille,Lille,FR,50.62925,3.057256,302,1922,3437
+vrn-bensheim,VRN,Bensheim,DE,49.6803,8.6189,11,43,45
+vrn-burstadt,VRN,Bürstadt,DE,49.6461,8.44917,10,36,21
+vrn-eppelheim,VRN,Eppelheim,DE,49.4025,8.6331,3,58,0
+vrn-heidelberg,VRN,Heidelberg,DE,49.4023,8.67577,58,439,173
+vrn-heppenheim,VRN,Heppenheim,DE,49.6431,8.63889,16,49,35
+vrn-kaiserslautern,VRN,Kaiserslautern,DE,49.4413,7.75566,29,189,126
+vrn-landau,VRN,Landau in der Pfalz,DE,49.1975,8.11693,14,63,0
+vrn-ludwigshafen,VRN,Ludwigshafen,DE,49.4741,8.43287,53,222,106
+vrn-mannheim,VRN,Mannheim,DE,49.4869,8.45638,102,531,250
+vrn-schwetzingen,VRN,Schwetzingen,DE,49.3863,8.5756,14,61,14
+vrn-speyer,VRN,Speyer,DE,49.3126,8.45295,12,58,31
+vrn-weinheim,VRN,Weinheim,DE,49.545,8.66027,15,56,25
+vrn-worms,VRN,Worms,DE,49.6394,8.34618,12,81,42
+vvtregiorad-ellmau,VVT REGIORAD Tirol,Ellmau,AT,47.5134,12.3025,3,0,20
+vvtregiorad-kufstein,VVT REGIORAD Tirol,Kufstein,AT,47.583,12.1692,22,82,78
+waterford,TFI Bikes,Waterford,IE,52.2475049,-7.1130299,14,0,233
+we-cycle,WE-cycle,"Aspen, CO",US,39.194951,-106.837002,88,448,653
+we-love-bike,We Love bike,Lodi,IT,45.3097228,9.503715999999999,1,5,3
+westbike-erkelenz,westBike,Erkelenz,DE,51.0753,6.31233,4,9,17
+westbike-geilenkirchen,westBike,Geilenkirchen,DE,50.9671,6.11886,4,12,9
+westbike-heinsberg,westBike,Heinsberg,DE,51.0597,6.11849,4,14,16
+westbike-hueckelhoven,westBike,Hückelhoven,DE,51.0529,6.21933,4,0,29
+westbike-wegberg,westBike,Wegberg,DE,51.1427,6.2813,4,12,15
+westcargo-bath,WESTcargo Bath,Bath,GB,51.3814,-2.35519,3,5,0
+westcargo-bristol,WESTcargo Bristol,Bristol,GB,51.4587,-2.57355,1,1,0
+whitebikes,WhiteBikes,Bratislava,SK,48.149424,17.113922,121,63,0
+wienmobil-rad,WienMobil Rad,Wien,AT,48.2081743,16.3738189,254,3045,1815
+winsenrad,WinsenRad,Winsen (Luhe),DE,53.3547,10.2067,21,67,40
+wk-bike-bremen-bremen,WK-Bike,Bremen,DE,53.0781,8.80132,64,2,75
+wolf-ride-bike-share,Wolf Ride Bike Share (Stony Brook University),Stony Brook,US,40.9124,-73.1249,14,41,243
+wrm-wroclaw,WRM,Wrocław,PL,51.1097,17.0485,242,1473,1139
+wupsi,wupsiRad Leverkusen,Leverkusen,DE,51.0732,7.00814,116,659,14
+xian-public-bicycle,Xi'an Public Bicycle,西安 (Xi'an),CN,34.2688,108.9458,1670,24441,26683
+yelo-velo,Yélo Vélo,La Rochelle,FR,46.1591,-1.1509,134,559,468
+youbike-chiayi-city,YouBike,台灣 Chiayi City,TW,23.4797,120.4397,196,1416,2282
+youbike-hsinchu-city,YouBike,新竹市 Hsinchu City,TW,24.8018,120.9714,104,932,1701
+youbike-hsinchu-county,YouBike,新竹縣 Hsinchu County,TW,24.8269,121.0129,164,1106,2132
+youbike-hsinchu-science-park,YouBike,新竹科學工業園區 Hsinchu Science Park,TW,24.7818,121.005,41,340,397
+youbike-kaohsiung-city,YouBike,高雄市 Kaohsiung City,TW,22.6314,120.3018,1415,10177,16593
+youbike-miaoli-county,YouBike,台灣 Miaoli County,TW,24.5648,120.8185,187,1428,3716
+youbike-new-taipei,YouBike,新北市 New Taipei,TW,25.0169826,121.4627868,1416,13935,26434
+youbike-pingtung-county,YouBike,屏東縣 Pingtung County,TW,22.683,120.4879,138,1367,1879
+youbike-putian-city,YouBike,莆田市 (Putian City),CN,25.4504,119.0126,966,19568,19624
+youbike-taichung,YouBike,臺中市 Taichung City,TW,24.1477358,120.6736482,1565,9908,22158
+youbike-tainan-city,YouBike,臺南市 Tainan City,TW,22.9923,120.185,585,4973,8634
+youbike-taipei,YouBike,台北市 Taipei City,TW,25.0329636,121.5654268,1569,12780,28026
+youbike-taoyuan,YouBike,桃園市 Taoyuan City,TW,24.9936281,121.3009798,542,5196,13780
+yoy-san-luis-potosi,YOY - San Luis Potosi,San Luis Potosi,MX,22.438,-100.514,16,0,0
+yoy-san-luis-potosi-cancun,YOY - San Luis Potosi,Cancún,MX,21.1675,-86.8498,7,0,0
+yverdon-les-bains,Donkey Republic Yverdon-les-Bains,Yverdon-les-Bains,CH,46.7788,6.6414,81,96,778
+zebullo,ZébullO,Reims,FR,49.2628,4.0347,63,214,358
+zena-by-bike,Zena By Bike,Genova,IT,44.40430089372731,8.92908986230462,14,50,66
+zoov-paris-sud,Zoov,Paris Sud,FR,48.7429,2.238,48,0,444
