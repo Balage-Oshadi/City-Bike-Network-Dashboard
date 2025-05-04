@@ -5,7 +5,7 @@ import io
 
 from app.api.v1.routes import load_dashboard
 from app.services.fetcher import fetch_network_details
-from app.services.report_builder import generate_pdf_report, save_bar_chart,save_pie_chart
+from app.services.report_builder import generate_pdf_report
 from app.services.pagination import render_pagination_ui
 from app.services.processor import enrich_with_station_data
 from app.services.analytics import get_top_10_networks_by_station_count
@@ -125,6 +125,13 @@ top_networks_pie_figure.update_layout(
     font_color="white"
 )
 
+# Prepare df with correct structure for matplotlib
+country_counts = df["country"].value_counts().head(10)
+top_country_networks_df = pd.DataFrame({
+    "name": country_counts.index,
+    "station_count": country_counts.values
+})
+
 # === Generate Report Button in Sidebar ===
 with st.sidebar:
     if st.button("📄 Generate Report"):
@@ -135,10 +142,10 @@ with st.sidebar:
                 total_networks=total_networks,
                 total_stations=total_stations,
                 top_network=top_network_name,
-                top_country_networks_df=filtered_summary_df,
+                top_country_networks_df=top_country_networks_df,
                 world_map_fig=world_map_figure,
-                top_country_fig=top_country_bar_figure,
-                top_networks_pie_fig=top_networks_pie_figure
+                top_country_fig=top_country_bar_figure,        # optional: still passed but unused in matplotlib mode
+                top_networks_pie_fig=top_networks_pie_figure   # optional: still passed but unused in matplotlib mode
             )
             with open(pdf_path, "rb") as f:
                 st.download_button(
@@ -246,7 +253,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Create two side-by-side columns
-left_col, right_col = st.columns([1,3])
+left_col, right_col = st.columns([1,2])
 
 # Global Bike Network Summary (LEFT COLUMN)
 with left_col:
@@ -325,6 +332,13 @@ with left_col:
                 transform: scale(1) translateY(0);
             }
         }
+                
+        /* === Responsive for Phone: Show 2 per row === */
+        @media (max-width: 600px) {
+            .metric-card {
+                flex: 1 1 calc(50% - 24px); /* two cards per row */
+            }
+        }
         </style>
     """, unsafe_allow_html=True)
 
@@ -335,6 +349,8 @@ with left_col:
         ("Top Network", top_network_name),
         ("Total Stations", total_stations)
     ]
+
+    st.markdown("<div style='width: 100%; display: flex; justify-content: center;'>", unsafe_allow_html=True)
 
     # Render Cards
     st.markdown("<div class='metric-card-container'>", unsafe_allow_html=True)
@@ -347,6 +363,7 @@ with left_col:
             </div>
         """, unsafe_allow_html=True)
 
+    st.markdown("</div>", unsafe_allow_html=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
 
