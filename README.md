@@ -6,11 +6,11 @@ An interactive dashboard that visualizes real-time data from the City Bike Netwo
 
 ## Demo App
 
-[![Open in Streamlit](https://city-bike-network-dashboard.streamlit.app)
+[[Open in Streamlit](https://city-bike-network-dashboard.streamlit.app)
 
 ##  Colab Notebook
 
-[![Open in Colab](https://colab.research.google.com/drive/1ouTfjPPlq0q2lGc0DnG8nrX3M7bednw4?usp=sharing)
+[[Open in Colab](https://colab.research.google.com/drive/1ouTfjPPlq0q2lGc0DnG8nrX3M7bednw4?usp=sharing)
 
 ---
 
@@ -101,7 +101,7 @@ This project is part of a learning initiative on dashboard design using real-tim
 
 ##  Author
 
-**Oshadi Yashodhika*  
+*Oshadi Yashodhika*  
 [GitHub](https://github.com/Balage-Oshadi)
 
 ---
