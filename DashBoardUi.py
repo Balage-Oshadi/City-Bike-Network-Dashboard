@@ -38,7 +38,7 @@ with st.sidebar:
 
     # Prepare options
     country_options = ["ALL"] + sorted(df["country"].dropna().unique())
-    selected_country = st.selectbox("🌍 Select Country Code", country_options, index=0, placeholder="Type a country code")
+    selected_country = st.selectbox("Select Country Code", country_options, index=0, placeholder="Type a country code")
 
     # Dynamic networks based on selected country
     if selected_country == "ALL":
@@ -46,9 +46,9 @@ with st.sidebar:
     else:
         network_options = ["ALL"] + sorted(df[df["country"] == selected_country]["name"].dropna().unique())
 
-    selected_network = st.selectbox("🏙️ Select Network Name", network_options, index=0, placeholder="Type a network")
+    selected_network = st.selectbox("Select Network Name", network_options, index=0, placeholder="Type a network")
 
-    sort_by = st.selectbox("🔽 Sort By", ["", "name", "city", "station_count"], index=0)
+    sort_by = st.selectbox("Sort By", ["", "name", "city", "station count"], index=0)
 
 
 # === Apply Filter Logic ===
@@ -79,12 +79,25 @@ enriched_full_df = enrich_with_station_data(df)
 total_networks = len(enriched_full_df)
 total_stations = enriched_full_df["station_count"].sum()
 
-top_country_df = enriched_full_df.groupby("country")["station_count"].sum().reset_index()
-top_country_df = top_country_df.sort_values(by="station_count", ascending=False)
+# Top country by total stations
+top_country_df = (
+    enriched_full_df.groupby("country")["station_count"]
+    .sum()
+    .reset_index()
+    .sort_values(by="station_count", ascending=False)
+)
 top_country_name = top_country_df.iloc[0]["country"]
 
-top_network_df = enriched_full_df.sort_values(by="station_count", ascending=False)
+# Top network by total stations (aggregated)
+top_network_df = (
+    enriched_full_df.groupby("name")["station_count"]
+    .sum()
+    .reset_index()
+    .sort_values(by="station_count", ascending=False)
+)
 top_network_name = top_network_df.iloc[0]["name"]
+
+
 
 filtered_summary_df = pd.DataFrame()
 try:
@@ -134,7 +147,7 @@ top_country_networks_df = pd.DataFrame({
 
 # === Generate Report Button in Sidebar ===
 with st.sidebar:
-    if st.button("📄 Generate Report"):
+    if st.button("Generate Report"):
         try:
             pdf_path = generate_pdf_report(
                 df=df,
@@ -149,7 +162,7 @@ with st.sidebar:
             )
             with open(pdf_path, "rb") as f:
                 st.download_button(
-                    label="⬇️ Download PDF Report",
+                    label="Download PDF Report",
                     data=f,
                     file_name="Bike_Network_Report.pdf",
                     mime="application/pdf"
@@ -189,14 +202,14 @@ if st.session_state.get("show_report_modal", False):
         <div class="modal">
     """, unsafe_allow_html=True)
 
-    st.markdown("### ✏️ Select Report Sections")
+    st.markdown("### Select Report Sections")
 
-    include_summary = st.checkbox("✅ Include Global Summary", value=True)
-    include_charts = st.checkbox("✅ Include Top Charts", value=True)
-    include_map = st.checkbox("✅ Include World Map", value=True)
+    include_summary = st.checkbox(" Include Global Summary", value=True)
+    include_charts = st.checkbox("Include Top Charts", value=True)
+    include_map = st.checkbox("Include World Map", value=True)
 
-    generate = st.button("📥 Download Report as PDF")
-    cancel = st.button("❌ Cancel")
+    generate = st.button(" Download Report as PDF")
+    cancel = st.button("Cancel")
 
     st.markdown("</div>", unsafe_allow_html=True)
 
@@ -235,7 +248,7 @@ if st.session_state.get("generate_pdf"):
         )
 
         with open(pdf_path, "rb") as f:
-            st.download_button("⬇️ Click to Download Your PDF Report", f, file_name="CityBike_Report.pdf")
+            st.download_button("Click to Download Your PDF Report", f, file_name="CityBike_Report.pdf")
 
     except Exception as e:
         st.error(f"Error while generating the report: {e}")
@@ -248,7 +261,7 @@ if st.session_state.get("generate_pdf"):
 
 st.markdown("""
     <div style='font-size: 30px; font-weight: bold; color: white; text-align:center; padding: 30px 0 10px 0;'>
-        🌐 Global Bike Network Overview & Insights
+         Global Bike Network Overview & Insights
     </div>
 """, unsafe_allow_html=True)
 
@@ -381,7 +394,7 @@ with right_col:
         with st.container():
             st.markdown("""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
-                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'">🌍 Top 10 Countries by Network Count</div>
+                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'"> Top 10 Countries by Network Count</div>
             """, unsafe_allow_html=True)
 
             try:
@@ -413,7 +426,7 @@ with right_col:
         with st.container():
             st.markdown("""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
-                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'">🏆 Top 10 Networks by Station Count</div>
+                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'"> Top 10 Networks by Station Count</div>
             """, unsafe_allow_html=True)
 
             try:
@@ -441,7 +454,7 @@ with right_col:
                 else:
                     st.info("No station data available to display.")
             except Exception as e:
-                st.error(f"❌ Error displaying pie chart for top networks: {e}")
+                st.error(f" Error displaying pie chart for top networks: {e}")
             st.markdown("</div>", unsafe_allow_html=True)
 
 
@@ -449,7 +462,7 @@ with right_col:
 # === Combined: World Map + Top Countries with Flags ===
 st.markdown("""
         <div style='font-size: 30px; font-weight: bold; color: white; text-align:center;padding:20px;'>
-            🗺️ World Map and Top Countries Overview
+             World Map and Top Countries Overview
         </div>
     """, unsafe_allow_html=True)
 
@@ -463,7 +476,7 @@ with map_col:
     with st.container():
         st.markdown("""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
-                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'">🌐 World Map of Bike Stations</div>
+                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'"> World Map of Bike Stations</div>
         """, unsafe_allow_html=True)
 
         # Add spacing between rows
@@ -475,7 +488,7 @@ with map_col:
                 try:
                     enriched_df = enrich_with_station_data(filtered_df)
                 except Exception as enrich_error:
-                    st.warning(f"⚠️ Could not enrich data with station stats: {enrich_error}")
+                    st.warning(f"Could not enrich data with station stats: {enrich_error}")
                     enriched_df = filtered_df
             else:
                 enriched_df = filtered_df
@@ -486,12 +499,13 @@ with map_col:
                 st.plotly_chart(
                     fig,
                     use_container_width=True,
+                    zoom=7,
                     config={"scrollZoom": True}
                 )
             else:
                 st.warning("No data available to render the world map.")
         except Exception as e:
-            st.error(f"❌ An error occurred while displaying the world map:\n{e}")
+            st.error(f" An error occurred while displaying the world map:\n{e}")
 
         st.markdown("</div>", unsafe_allow_html=True)
 
@@ -500,7 +514,7 @@ with flag_col:
     with st.container():
         st.markdown("""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
-                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'">🌎 Top 10 Countries by Network Count with Flags</div>
+                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'"> Top 10 Countries by Network Count with Flags</div>
                 <div style="display: flex; justify-content: center;">
         """, unsafe_allow_html=True)
 
@@ -552,7 +566,7 @@ filters_applied = (
 if filters_applied:
     st.markdown(f"""
         <div style='font-size: 26px; font-weight: bold; color: white; text-align:center; padding: 20px 0 10px 0;'>
-            🏙️ Regional Network Analysis: {selected_country if selected_country != 'ALL' else 'All Countries'}
+             Regional Network Analysis: {selected_country if selected_country != 'ALL' else 'All Countries'}
         </div>
     """, unsafe_allow_html=True)
 
@@ -580,12 +594,10 @@ with col1:
             st.error(f"Error rendering donut chart: {e}")
     
     elif selected_network != "ALL" and selected_country != "ALL":
-        #st.subheader(f"🥯 Network Contribution in {selected_country if selected_country != 'ALL' else 'All Countries'}")
-
         st.markdown(f"""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
                 <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;">
-                    🥯 Network Contribution in {selected_country if selected_country != 'ALL' else 'All Countries'}
+                     Network Contribution in {selected_country if selected_country != 'ALL' else 'All Countries'}
                 </div>
             </div>
         """, unsafe_allow_html=True)
@@ -598,12 +610,10 @@ with col1:
             st.error(f"Error rendering donut chart: {e}")
 
     elif filters_applied:
-        #st.subheader(f"🏙️ Top 15 Networks by Station Count in {selected_country if selected_country != 'ALL' else 'All Countries'}")
-
         st.markdown(f"""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
                 <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;">
-                    🏙️ Top 15 Networks by Station Count in {selected_country if selected_country != 'ALL' else 'All Countries'}
+                     Top 15 Networks by Station Count in {selected_country if selected_country != 'ALL' else 'All Countries'}
                 </div>
             </div>
         """, unsafe_allow_html=True)
@@ -633,7 +643,7 @@ with col2:
     if filters_applied:
         st.markdown("""
             <div style="background-color:#222; padding:20px; border-radius:10px;">
-                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'">📋 Filtered Summary by Country and Networks</div>
+                <div style="color:white; text-align:center; font-size: 20px; font-weight: bold; padding:10px;'"> Filtered Summary by Country and Networks</div>
         """, unsafe_allow_html=True)
 
         # Add spacing between rows
@@ -644,7 +654,7 @@ with col2:
                 summaries = generate_country_summary(filtered_df, fetch_network_details)
 
                 for entry in summaries:
-                    st.markdown(f"#### 🌍 Country: **{entry['country']}**")
+                    st.markdown(f"####  Country: **{entry['country']}**")
 
                     c1, c2, c3 = st.columns(3)
                     c1.metric("🚲 Stations", entry["stations"])
@@ -653,7 +663,7 @@ with col2:
 
                     display_df = pd.DataFrame(entry["details"]).sort_values(by="Free Bikes", ascending=False)
 
-                    with st.expander(f"📦 Show networks in {entry['country']} ({len(display_df)} total)"):
+                    with st.expander(f" Show networks in {entry['country']} ({len(display_df)} total)"):
                         # Set up pagination parameters
                         page_size = 5
                         total_items = len(display_df)
@@ -685,7 +695,7 @@ with col2:
                         # Download button for full data
                         csv = display_df.to_csv(index=False).encode("utf-8")
                         st.download_button(
-                            label=f"⬇️ Download CSV for {entry['country']}",
+                            label=f" Download CSV for {entry['country']}",
                             data=csv,
                             file_name=f"{entry['country']}_bike_networks.csv",
                             mime="text/csv"
@@ -693,7 +703,7 @@ with col2:
             else:
                 st.info("No filtered data to display.")
         except Exception as e:
-            st.error(f"❌ Error generating country-level details: {e}")
+            st.error(f" Error generating country-level details: {e}")
 
 
 

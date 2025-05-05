@@ -51,7 +51,7 @@ def matplotlib_bar_chart(df, width=450, height=170):
 
         return Image(buf, width=width, height=height)
     except Exception as e:
-        return Paragraph(f"⚠️ Could not render bar chart: {e}", getSampleStyleSheet()["Normal"])
+        return Paragraph(f" Could not render bar chart: {e}", getSampleStyleSheet()["Normal"])
 
 
 def matplotlib_pie_chart(df, width=450, height=220):
@@ -70,7 +70,7 @@ def matplotlib_pie_chart(df, width=450, height=220):
             autopct='%1.1f%%',
             startangle=140,
             colors=colors,
-            wedgeprops=dict(width=0.25, edgecolor='#111111')  # 🟢 thinner donut = more visible center
+            wedgeprops=dict(width=0.25, edgecolor='#111111')
         )
 
         # Brighter, clearer legend
@@ -97,7 +97,7 @@ def matplotlib_pie_chart(df, width=450, height=220):
 
         return Image(buf, width=width, height=height)
     except Exception as e:
-        return Paragraph(f"⚠️ Could not render pie chart: {e}", getSampleStyleSheet()["Normal"])
+        return Paragraph(f" Could not render pie chart: {e}", getSampleStyleSheet()["Normal"])
 
 
 def generate_pdf_report(df, top_country, total_networks, total_stations, top_network,
@@ -213,7 +213,7 @@ def render_static_world_map(df, width=400, height=250):
         plt.close(fig)
         return Image(buf, width=width, height=height)
     except Exception as e:
-        return Paragraph(f"⚠️ Could not render map: {e}", getSampleStyleSheet()["Normal"])
+        return Paragraph(f" Could not render map: {e}", getSampleStyleSheet()["Normal"])
 
 
 def add_centered_section_title(story, title_text):

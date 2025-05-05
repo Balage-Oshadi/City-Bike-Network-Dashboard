@@ -23,7 +23,7 @@ def fetch_network_data():
         response.raise_for_status()
         return response.json().get('networks', [])
     except requests.RequestException as e:
-        logging.error(f"❌ Error fetching network list: {e}")
+        logging.error(f" Error fetching network list: {e}")
         return []
 
 def fetch_network_details(network_id: str) -> dict:

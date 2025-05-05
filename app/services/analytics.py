@@ -68,7 +68,7 @@ def get_top_10_networks_by_station_count(networks: list) -> list:
                 "station_count": count
             })
         except Exception as e:
-            print(f"⚠️ Failed to fetch stations for {network_id}: {e}")
+            print(f" Failed to fetch stations for {network_id}: {e}")
 
     # Sort and return top 10
     return sorted(top_networks, key=lambda x: x["station_count"], reverse=True)[:10]

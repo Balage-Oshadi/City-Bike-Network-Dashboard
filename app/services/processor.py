@@ -72,18 +72,18 @@ def enrich_with_station_data(df: pd.DataFrame) -> pd.DataFrame:
         return df
 
     except Exception as e:
-        st.warning(f"⚠️ Live data failed: {e}")
+        st.warning(f" Live data failed: {e}")
 
         if os.path.exists(CACHE_FILE):
-            st.info("🗂️ Loading from cached data...")
+            st.info(" Loading from cached data...")
             return pd.read_csv(CACHE_FILE)
         else:
-            st.error("❌ No live data and no cached fallback available.")
+            st.error(" No live data and no cached fallback available.")
             return pd.DataFrame()
 
 
 # === Enrich full dataset once and cache it for static metrics ===
-@st.cache_data(show_spinner="🧠 Preparing static enriched dataset...", max_entries=1)
+@st.cache_data(show_spinner=" Preparing static enriched dataset...", max_entries=1)
 def enrich_static_data():
     from app.api.v1.routes import load_dashboard
     base_df, *_ = load_dashboard()

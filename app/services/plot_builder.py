@@ -53,7 +53,7 @@ def plot_world_station_map(df: pd.DataFrame, filters_applied: bool = False):
         return fig
 
     except Exception as e:
-        print(f"❌ Error in plot_world_station_map(): {e}")
+        print(f" Error in plot_world_station_map(): {e}")
         return None
 
 
